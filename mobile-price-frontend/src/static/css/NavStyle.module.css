@@ -1,0 +1,109 @@
+.navTop {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 200px auto 300px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+.name {
+  font-size: 1.2rem;
+  color: black;
+  text-align: center;
+}
+.name .namePrice {
+  color: #009e7f;
+}
+.search {
+  text-align: center;
+}
+.icon {
+  text-align: center;
+}
+
+.searchField {
+  border: none;
+  background-color: aliceblue;
+  width: 30rem;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+}
+
+.searchField:focus {
+  outline: none;
+}
+
+.btn {
+  padding: 10px;
+  width: 6rem;
+  color: white;
+  border: none;
+  background-color: #009e7f;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Nav Down */
+
+.navDown {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  justify-items: center;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 2px 0px 0 rgba(0, 0, 0, 0.19);
+}
+.link {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  cursor: pointer;
+  color: orange;
+}
+
+/* price memu */
+.price {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  justify-items: center;
+  margin: 20px;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 2px 0px 0 rgba(0, 0, 0, 0.19);
+}
+.rangeBtn {
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  color: rgb(218, 190, 32);
+  width: 105px;
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.rangeBtn:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 5px 0px 0 rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 1086px) {
+  .navTop {
+    grid-template-columns: 200px auto;
+  }
+  .icon {
+    display: none;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .search {
+    display: none;
+  }
+}
+
+.gradiant {
+  background-image: linear-gradient(to right, rgb(192, 93, 126), rgb(114, 26, 26));
+
+}
