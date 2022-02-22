@@ -1,3 +1,11 @@
+.nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    overflow: hidden;
+    background-color: aliceblue;
+}
 .navTop {
   background-color: white;
   display: grid;
@@ -74,6 +82,9 @@
   justify-items: center;
   margin: 20px;
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 2px 0px 0 rgba(0, 0, 0, 0.19);
+  /* position: sticky;
+  top: 0;
+  left: 0; */
 }
 .rangeBtn {
   border: none;

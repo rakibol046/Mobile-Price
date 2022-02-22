@@ -7,7 +7,7 @@ import Search from './Search';
 
 export default function Nav() {
   return (
-    <div>
+    <div className={style.nav}>
         <div className={style.navTop}>
             <div className={style.name}> <b>Mobile <span className={style.namePrice}>Price</span></b></div>
             <div className={style.search}>
