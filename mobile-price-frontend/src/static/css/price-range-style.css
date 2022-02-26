@@ -1,0 +1,153 @@
+.filter-and-brand {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin: 20px;
+  padding: 0rem 2rem;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 2px 0px 0 rgba(0, 0, 0, 0.19);
+}
+.filter-and-brand i {
+  margin-right: 10px;
+  /* color: orange; */
+}
+.filter-and-brand button {
+  background-color: white;
+  padding: 0.5rem 3rem;
+  border: none;
+  margin: 0.5rem;
+  outline: 2px solid black;
+  border-radius: 20px;
+  color: #009e7f;
+  font-size: 1rem;
+}
+.filter-and-brand lavel {
+  padding: 0.5rem 1rem;
+}
+.filter-and-brand select {
+  padding: 0.5rem 3rem;
+  border: none;
+  margin: 0.5rem;
+  outline: 2px solid black;
+  border-radius: 20px;
+  color: #009e7f;
+  font-size: 1rem;
+}
+
+.mobile-price-range-area {
+  background-color: #009e7f;
+  width: 70%;
+  z-index: 3;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  bottom: 2rem;
+  margin-left: 15%;
+  border-radius: 50px;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 2px 0px 0 rgba(0, 0, 0, 0.19);
+  /* position: sticky;
+    top: 0;
+    left: 0; */
+  display: none;
+}
+
+.mobile-price-range-area .filter {
+  height: 2.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+.mobile-price-range-area .filter i {
+  margin-right: 10px;
+  color: orange;
+}
+
+.popup {
+  width: 40%;
+  height: 300px;
+  margin: auto;
+  position: fixed;
+  bottom: -100%;
+  margin-left: 30%;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: white;
+  transition: all 1s ease-in-out;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.19);
+}
+
+.popupactive {
+  bottom: 7rem;
+}
+
+.popup i {
+  font-size: 2.3rem;
+  border: none;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: white;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.price-range-btn {
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.19);
+  display: block;
+  margin: auto;
+  width: 70%;
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .filter-and-brand button {
+    display: none;
+  }
+  .filter-and-brand .brand-area {
+    margin: auto;
+  }
+  .mobile-price-range-area {
+    display: block;
+  }
+
+  .popup {
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    position: fixed;
+    bottom: -100%;
+    margin-left: 20%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    transition: all 1s ease-in-out;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.19);
+  }
+  .popupactive {
+    bottom: 3rem;
+  }
+  .price-range-btn {
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.19);
+    display: block;
+    margin: auto;
+    width: 100%;
+    margin-top: 5px;
+  }
+}
+/* Media query end */
