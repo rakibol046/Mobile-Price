@@ -1,0 +1,47 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 12px;
+  margin: 30px;
+}
+
+.card {
+  transition: 0.5s;
+  text-decoration: none;
+  color: black;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.device-name .mname{
+  font-size: 1.3rem;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(114, 82, 82);
+  margin: 0 10px;
+}
+.card-footer strong {
+  font-size: 1.2rem;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap: 5px;
+    margin: 5px;
+  }
+  .card-footer {
+    margin: 0 5px;
+  }
+  .card-footer strong {
+    font-size: 1rem;
+  }
+  .device-name .mname{
+    font-size: 1rem;
+  }
+}

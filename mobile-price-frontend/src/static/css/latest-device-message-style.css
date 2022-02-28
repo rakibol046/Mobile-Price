@@ -1,0 +1,11 @@
+.latest-divice {
+  text-align: center;
+  margin: 20px;
+
+}
+.latest-divice h1 {
+  color: orange;
+}
+.latest-divice p {
+  color: rgb(233, 156, 14);
+}

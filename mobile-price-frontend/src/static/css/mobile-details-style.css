@@ -1,0 +1,97 @@
+.mobile-details-container {
+  max-width: 80%;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 5px;
+}
+
+.mobile-images {
+}
+.mobile-images img {
+  height: 350px;
+  width: 100%;
+  object-fit: contain;
+}
+.carousel {
+  width: auto;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.mobile-details {
+  padding: 10px;
+}
+.mobile-details h1 {
+  text-align: center;
+}
+.mobile-details .brand-and-status {
+  text-align: center;
+  padding: 7px;
+}
+
+.official-price {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  text-align: center;
+  padding: 15px;
+  
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table td {
+  padding: 10px;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+td:first-child {
+  width: 30%;
+}
+
+.mobile-details leval {
+  display: block;
+  padding: 10px;
+  font-size: 1.3rem;
+  background-color: black;
+  margin-top: 20px;
+  color: white;
+}
+
+/* @media only screen and (max-width: 1120px) {
+  .mobile-details-container {
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+  }
+} */
+@media only screen and (max-width: 960px) {
+  .mobile-details-container {
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+  }
+  td:first-child {
+    width: 40%;
+  }
+}
