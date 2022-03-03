@@ -7,9 +7,9 @@ import Typography from '@mui/material/Typography';
 import React from 'react';
 import { Link } from "react-router-dom";
 
-export default function MobileCard({img, deviceName, price,ram, rom}) {
+export default function MobileCard({img, deviceName, price,ram, rom, deviceId}) {
   return (
-    <Link to="" className='card'>
+    <Link to={deviceId} className='card'>
     <Card className='' sx={{ maxWidth: 1000 }}>
       <CardMedia
         component="img"

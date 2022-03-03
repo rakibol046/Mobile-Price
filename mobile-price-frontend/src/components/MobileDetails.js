@@ -1,34 +1,48 @@
-import React from 'react';
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 import Carousel from 'react-elastic-carousel';
-import img3 from "../static/images/iphone.jpg";
-import img1 from "../static/images/oppo.jpg";
-import img2 from "../static/images/poco.jpg";
+import { useParams } from "react-router-dom";
 
 export default function MobileDetails() {
+    let params = useParams();
+    console.log(params)
     const breakPoints = [
         // { width: 1, itemsToShow: 1 },
         // { width: 550, itemsToShow: 2, itemsToScroll: 2 },
         // { width: 768, itemsToShow: 3 },
         // { width: 1200, itemsToShow: 4 }
       ];
+    const [mobile, setMobile] = useState({});
+    const [images, setImages] = useState([]);
+    useEffect(()=>{
+      axios.get(`http://localhost:3000/phones/${params.deviceId}`)
+      .then((res) =>{
+        setMobile(res.data)
+        setImages(res.data.images)
+        console.log(res.data)
+        
+        console.log(images)
+      }).catch((err) =>{
+        console.log(`url error the error is ${err}`)
+      })
+    }, []);
   return (
     <div className='mobile-details-container'>
         <div className="mobile-images">
         <Carousel breakPoints={breakPoints} className='carousel'>
-            <img src={img1} width=''/>
-            <img src={img2} />
-            <img src={img3} />
+        {images.map(image => <img src={image} />)}
+
         </Carousel>
         </div>
         <div className="mobile-details">
-            <h1>Redmi Note 8</h1>
+            <h1>{mobile.deviceName}</h1>
             <p className='brand-and-status'><strong>Brand:</strong> Xiaomi   
             <strong> Status: </strong> Available</p>
 
             <div className="official-price">
                 <h3>Official Price</h3>
                 <div className="variant">
-                <p>৳17,499 3/32GB</p>
+                <p>৳{mobile.price} 3/32GB</p>
                 <p>৳18,999 4/68GB</p>
                 <p>৳20,999 6/128GB</p>
                 </div>

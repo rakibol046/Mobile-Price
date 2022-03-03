@@ -10,23 +10,23 @@ export default function Navbar() {
 
   return (
     <div className='navbar-container'>
-        <nav class="navbar">
-          <div class="logo">
+        <nav className="navbar">
+          <div className="logo">
             <h1>
-              <Link to="/"><b>Mobile <span class="logo-price">Price</span></b></Link>
+              <Link to="/"><b>Mobile <span className="logo-price">Price</span></b></Link>
             </h1>
           </div>
-          <div class="search-area">
-            <div class="search">
-              <i class="fa fa-search" aria-hidden="true"></i>
+          <div className="search-area">
+            <div className="search">
+              <i className="fa fa-search" aria-hidden="true"></i>
               <input type="search" placeholder="Search your product" />
               <input type="submit" value="Search" />
             </div>
           </div>
-          <div class="icon">
+          <div className="icon">
             <button type="compare-button">Compare Device</button>
-            <div class="menu-bar" onClick={()=>{setMenu(!menu)}}>
-              {menu? <i class="far fa-times-circle"></i>: <i class="fa fa-bars" aria-hidden="true"></i> }
+            <div className="menu-bar" onClick={()=>{setMenu(!menu)}}>
+              {menu? <i className="far fa-times-circle"></i>: <i className="fa fa-bars" aria-hidden="true"></i> }
        
             </div>
           </div>
@@ -39,7 +39,7 @@ export default function Navbar() {
 
 
       2nd navbar start */}
-      <nav class= {menu? "navbar2 active" : "navbar2" }>
+      <nav className= {menu? "navbar2 active" : "navbar2" }>
         <NavLink to="/phones" className={(navinfo) => (navinfo.isActive? "nav-active" : "")}  onClick={()=>{setMenu(!menu)}}>Smartphone</NavLink>
         <NavLink to="/tablets" className={(navinfo) => (navinfo.isActive? "nav-active" : "")} onClick={()=>{setMenu(!menu)}}>Tablet</NavLink>
         <NavLink to="/laptops" className={(navinfo) => (navinfo.isActive? "nav-active" : "")} onClick={()=>{setMenu(!menu)}}>Laptop</NavLink>
