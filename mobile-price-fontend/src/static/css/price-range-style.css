@@ -21,6 +21,12 @@
   color: #009e7f;
   font-size: 1rem;
 }
+.filter-and-brand .active-price-btn {
+
+  outline: none;
+  
+}
+
 .filter-and-brand lavel {
   padding: 0.5rem 1rem;
 }

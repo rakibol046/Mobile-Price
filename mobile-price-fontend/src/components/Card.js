@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 export default function MobileCard({img, deviceName, price,ram, rom, deviceId}) {
   return (
     <Link to={deviceId} className='card'>
-    <Card className='' sx={{ maxWidth: 1000 }}>
+    <Card className='' sx={{ maxWidth: 300 }}>
       <CardMedia
         component="img"
         alt={deviceName}
