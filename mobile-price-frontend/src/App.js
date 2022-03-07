@@ -6,6 +6,8 @@ import Home from './components/Home';
 import MobileDetails from './components/MobileDetails';
 import Navbar from './components/Navbar';
 import Phones from './components/Phones';
+import Tablets from './components/Tablets';
+import Watches from './components/Watches';
 import './static//css/nav-style.css';
 import './static/css/card-style.css';
 import './static/css/home-style.css';
@@ -26,11 +28,11 @@ function App() {
         <Route path='/phones' element={<Phones />} />
         <Route path='/phones/:deviceId' element={<MobileDetails bal="heda" />} />
   
-        <Route path='tablets' element={<Phones />} />
-        <Route path='laptops' element={<Phones />} />
-        <Route path='desktops' element={<Phones />} />
-        <Route path='watches' element={<Phones />} />
-        <Route path='headphones' element={<Phones />} />
+        <Route path='tablets' element={<Tablets />} />
+        {/* <Route path='laptops' element={<Phones />} />
+        <Route path='desktops' element={<Phones />} /> */}
+        <Route path='watches' element={<Watches />} />
+        {/* <Route path='headphones' element={<Phones />} /> */}
 
         <Route path='details' element={<MobileDetails />} />
         

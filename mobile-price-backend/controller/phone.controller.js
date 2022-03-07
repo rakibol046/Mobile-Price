@@ -1,11 +1,11 @@
 const Phone = require("../models/phone.model");
-const allPhones = (req, res) => {
-    Phone.find({}, (err, data)=>{
+const allPhonesCotroller = (req, res) => {
+    Phone.find({categories : "smartphone"}, (err, data)=>{
         res.json(data)
     });
     
 };
-const phone = (req, res) => {
+const phoneController = (req, res) => {
     let deviceId = req.params.deviceId
     console.log(deviceId)
     Phone.findById({_id: deviceId}, (err, data)=>{
@@ -21,6 +21,6 @@ const phone = (req, res) => {
 };
 
 module.exports = {
-    allPhones,
-    phone
+    allPhonesCotroller,
+    phoneController
 };

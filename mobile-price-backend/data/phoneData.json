@@ -1,981 +1,1033 @@
 [
-    {
+  {
+    "categories": "smartphone",
     "deviceName": "Vivo Y15s",
     "price": ["11,990", "12,999"],
-    "images":["https://www.mobiledokan.com/wp-content/uploads/2021/12/Vivo-Y15s-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"],
+    "images": [
+      "https://www.mobiledokan.com/wp-content/uploads/2021/12/Vivo-Y15s-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"
+    ],
     "released": "November 9, 2021",
     "colors": "Wave Green, Mystic Blue",
-    "general":{
-        "deviceType": "Smartphone",
-        "brand": "Vivo",
-        "model": "Vivo Y15s",
-        "status": "Active"
+    "general": {
+      "deviceType": "Smartphone",
+      "brand": "Vivo",
+      "model": "Vivo Y15s",
+      "status": "Active"
     },
-   
-    "connectivity":{
-        "network": "2G, 3G, 4G",
-        "sim": "Dual Nano SIM",
-        "wlan": "i-Fi direct, Wi-Fi hotspot",
-        "usb": "v2.0",
-        "radio": "FM"
-    },
-    "body":{
-        "style": "null",
-        "material": "null",
-        "dimensions": "null",
-        "weight": "null"
-    },
-    "display":{
-        "size": "null",
-        "resolution": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "backCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "frontCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "performance":{
-        "operatingSystem": "null",
-        "chipset": "null",
-        "ram": ["4","6","8"],
-        "processor": "null",
-        "gpu": "null"
-    },
-    "storage":{
-        "rom":["64", "128", "256"],
-            
-        "microSDSlot": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "sound":{
-        "jack": "null",
-        "features": "null"
-    },
-    "security":{
-        "fingerprint": "null",
-        "faceUnlock": "null",
-        "features": "null"
-    },
-    "others":{
-        "notificationLight": "null",
-        "sensors": "null",
-        "madeIn": "null"
-    }
 
+    "connectivity": {
+      "network": "2G, 3G, 4G",
+      "sim": "Dual Nano SIM",
+      "wlan": "i-Fi direct, Wi-Fi hotspot",
+      "usb": "v2.0",
+      "radio": "FM"
+    },
+    "body": {
+      "style": "null",
+      "material": "null",
+      "dimensions": "null",
+      "weight": "null"
+    },
+    "display": {
+      "size": "null",
+      "resolution": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "backCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "frontCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "performance": {
+      "operatingSystem": "null",
+      "chipset": "null",
+      "ram": ["4", "6", "8"],
+      "processor": "null",
+      "gpu": "null"
+    },
+    "storage": {
+      "rom": ["64", "128", "256"],
+
+      "microSDSlot": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "sound": {
+      "jack": "null",
+      "features": "null"
+    },
+    "security": {
+      "fingerprint": "null",
+      "faceUnlock": "null",
+      "features": "null"
+    },
+    "others": {
+      "notificationLight": "null",
+      "sensors": "null",
+      "madeIn": "null"
+    }
   },
 
-
   {
+    "categories": "smartphone",
     "deviceName": "Vivo V21",
     "price": ["32,990"],
-    "images":["https://www.mobiledokan.com/wp-content/uploads/2021/05/Vivo-V21-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"],
+    "images": [
+      "https://www.mobiledokan.com/wp-content/uploads/2021/05/Vivo-V21-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"
+    ],
     "released": "May 5, 2021",
     "colors": "Dusk Blue, Sunset Dazzle",
-    "general":{
-        "deviceType": "Smartphone",
-        "brand": "Vivo",
-        "model": "Vivo Y15s",
-        "status": "Active"
+    "general": {
+      "deviceType": "Smartphone",
+      "brand": "Vivo",
+      "model": "Vivo Y15s",
+      "status": "Active"
     },
-   
-    "connectivity":{
-        "network": "2G, 3G, 4G",
-        "sim": "Dual Nano SIM",
-        "wlan": "i-Fi direct, Wi-Fi hotspot",
-        "usb": "v2.0",
-        "radio": "FM"
-    },
-    "body":{
-        "style": "null",
-        "material": "null",
-        "dimensions": "null",
-        "weight": "null"
-    },
-    "display":{
-        "size": "null",
-        "resolution": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "backCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "frontCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "performance":{
-        "operatingSystem": "null",
-        "chipset": "null",
-        "ram": ["4","6","8"],
-        "processor": "null",
-        "gpu": "null"
-    },
-    "storage":{
-        "rom":["64", "128", "256"],
-            
-        "microSDSlot": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "sound":{
-        "jack": "null",
-        "features": "null"
-    },
-    "security":{
-        "fingerprint": "null",
-        "faceUnlock": "null",
-        "features": "null"
-    },
-    "others":{
-        "notificationLight": "null",
-        "sensors": "null",
-        "madeIn": "null"
-    }
 
+    "connectivity": {
+      "network": "2G, 3G, 4G",
+      "sim": "Dual Nano SIM",
+      "wlan": "i-Fi direct, Wi-Fi hotspot",
+      "usb": "v2.0",
+      "radio": "FM"
+    },
+    "body": {
+      "style": "null",
+      "material": "null",
+      "dimensions": "null",
+      "weight": "null"
+    },
+    "display": {
+      "size": "null",
+      "resolution": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "backCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "frontCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "performance": {
+      "operatingSystem": "null",
+      "chipset": "null",
+      "ram": ["4", "6", "8"],
+      "processor": "null",
+      "gpu": "null"
+    },
+    "storage": {
+      "rom": ["64", "128", "256"],
+
+      "microSDSlot": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "sound": {
+      "jack": "null",
+      "features": "null"
+    },
+    "security": {
+      "fingerprint": "null",
+      "faceUnlock": "null",
+      "features": "null"
+    },
+    "others": {
+      "notificationLight": "null",
+      "sensors": "null",
+      "madeIn": "null"
+    }
   },
 
-
-
   {
+    "categories": "smartphone",
     "deviceName": "Realme Narzo 50i",
     "price": "10,990",
-    "images":["https://www.mobiledokan.com/wp-content/uploads/2021/05/Vivo-V21-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"],
+    "images": [
+      "https://www.mobiledokan.com/wp-content/uploads/2021/05/Vivo-V21-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"
+    ],
     "released": "May 5, 2021",
     "colors": "Dusk Blue, Sunset Dazzle",
-    "general":{
-        "deviceType": "Smartphone",
-        "brand": "Vivo",
-        "model": "Vivo Y15s",
-        "status": "Active"
+    "general": {
+      "deviceType": "Smartphone",
+      "brand": "Vivo",
+      "model": "Vivo Y15s",
+      "status": "Active"
     },
-   
-    "connectivity":{
-        "network": "2G, 3G, 4G",
-        "sim": "Dual Nano SIM",
-        "wlan": "i-Fi direct, Wi-Fi hotspot",
-        "usb": "v2.0",
-        "radio": "FM"
-    },
-    "body":{
-        "style": "null",
-        "material": "null",
-        "dimensions": "null",
-        "weight": "null"
-    },
-    "display":{
-        "size": "null",
-        "resolution": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "backCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "frontCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "performance":{
-        "operatingSystem": "null",
-        "chipset": "null",
-        "ram": ["4","6","8"],
-        "processor": "null",
-        "gpu": "null"
-    },
-    "storage":{
-        "rom":["64", "128", "256"],
-            
-        "microSDSlot": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "sound":{
-        "jack": "null",
-        "features": "null"
-    },
-    "security":{
-        "fingerprint": "null",
-        "faceUnlock": "null",
-        "features": "null"
-    },
-    "others":{
-        "notificationLight": "null",
-        "sensors": "null",
-        "madeIn": "null"
-    }
 
+    "connectivity": {
+      "network": "2G, 3G, 4G",
+      "sim": "Dual Nano SIM",
+      "wlan": "i-Fi direct, Wi-Fi hotspot",
+      "usb": "v2.0",
+      "radio": "FM"
+    },
+    "body": {
+      "style": "null",
+      "material": "null",
+      "dimensions": "null",
+      "weight": "null"
+    },
+    "display": {
+      "size": "null",
+      "resolution": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "backCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "frontCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "performance": {
+      "operatingSystem": "null",
+      "chipset": "null",
+      "ram": ["4", "6", "8"],
+      "processor": "null",
+      "gpu": "null"
+    },
+    "storage": {
+      "rom": ["64", "128", "256"],
+
+      "microSDSlot": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "sound": {
+      "jack": "null",
+      "features": "null"
+    },
+    "security": {
+      "fingerprint": "null",
+      "faceUnlock": "null",
+      "features": "null"
+    },
+    "others": {
+      "notificationLight": "null",
+      "sensors": "null",
+      "madeIn": "null"
+    }
   },
 
-
-
   {
+    "categories": "smartphone",
     "deviceName": "Realme C11 2021",
-    "price": ["9,090","10,990"],
-    "images":["https://www.mobiledokan.com/wp-content/uploads/2021/09/Realme-C11-2021-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"],
+    "price": ["9,090", "10,990"],
+    "images": [
+      "https://www.mobiledokan.com/wp-content/uploads/2021/09/Realme-C11-2021-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"
+    ],
     "released": "May 5, 2021",
     "colors": "Dusk Blue, Sunset Dazzle",
-    "general":{
-        "deviceType": "Smartphone",
-        "brand": "Vivo",
-        "model": "Vivo Y15s",
-        "status": "Active"
+    "general": {
+      "deviceType": "Smartphone",
+      "brand": "Vivo",
+      "model": "Vivo Y15s",
+      "status": "Active"
     },
-   
-    "connectivity":{
-        "network": "2G, 3G, 4G",
-        "sim": "Dual Nano SIM",
-        "wlan": "i-Fi direct, Wi-Fi hotspot",
-        "usb": "v2.0",
-        "radio": "FM"
-    },
-    "body":{
-        "style": "null",
-        "material": "null",
-        "dimensions": "null",
-        "weight": "null"
-    },
-    "display":{
-        "size": "null",
-        "resolution": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "backCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "frontCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "performance":{
-        "operatingSystem": "null",
-        "chipset": "null",
-        "ram": ["4","6","8"],
-        "processor": "null",
-        "gpu": "null"
-    },
-    "storage":{
-        "rom":["64", "128", "256"],
-            
-        "microSDSlot": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "sound":{
-        "jack": "null",
-        "features": "null"
-    },
-    "security":{
-        "fingerprint": "null",
-        "faceUnlock": "null",
-        "features": "null"
-    },
-    "others":{
-        "notificationLight": "null",
-        "sensors": "null",
-        "madeIn": "null"
-    }
 
+    "connectivity": {
+      "network": "2G, 3G, 4G",
+      "sim": "Dual Nano SIM",
+      "wlan": "i-Fi direct, Wi-Fi hotspot",
+      "usb": "v2.0",
+      "radio": "FM"
+    },
+    "body": {
+      "style": "null",
+      "material": "null",
+      "dimensions": "null",
+      "weight": "null"
+    },
+    "display": {
+      "size": "null",
+      "resolution": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "backCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "frontCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "performance": {
+      "operatingSystem": "null",
+      "chipset": "null",
+      "ram": ["4", "6", "8"],
+      "processor": "null",
+      "gpu": "null"
+    },
+    "storage": {
+      "rom": ["64", "128", "256"],
+
+      "microSDSlot": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "sound": {
+      "jack": "null",
+      "features": "null"
+    },
+    "security": {
+      "fingerprint": "null",
+      "faceUnlock": "null",
+      "features": "null"
+    },
+    "others": {
+      "notificationLight": "null",
+      "sensors": "null",
+      "madeIn": "null"
+    }
   },
 
-
   {
+    "categories": "smartphone",
     "deviceName": "Realme 8 5G",
     "price": "24,990",
-    "images":["https://www.mobiledokan.com/wp-content/uploads/2021/07/Realme-8-5G-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"],
+    "images": [
+      "https://www.mobiledokan.com/wp-content/uploads/2021/07/Realme-8-5G-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"
+    ],
     "released": "May 5, 2021",
     "colors": "Dusk Blue, Sunset Dazzle",
-    "general":{
-        "deviceType": "Smartphone",
-        "brand": "Vivo",
-        "model": "Vivo Y15s",
-        "status": "Active"
+    "general": {
+      "deviceType": "Smartphone",
+      "brand": "Vivo",
+      "model": "Vivo Y15s",
+      "status": "Active"
     },
-   
-    "connectivity":{
-        "network": "2G, 3G, 4G",
-        "sim": "Dual Nano SIM",
-        "wlan": "i-Fi direct, Wi-Fi hotspot",
-        "usb": "v2.0",
-        "radio": "FM"
-    },
-    "body":{
-        "style": "null",
-        "material": "null",
-        "dimensions": "null",
-        "weight": "null"
-    },
-    "display":{
-        "size": "null",
-        "resolution": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "backCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "frontCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "performance":{
-        "operatingSystem": "null",
-        "chipset": "null",
-        "ram": ["4","6","8"],
-        "processor": "null",
-        "gpu": "null"
-    },
-    "storage":{
-        "rom":["64", "128", "256"],
-            
-        "microSDSlot": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "sound":{
-        "jack": "null",
-        "features": "null"
-    },
-    "security":{
-        "fingerprint": "null",
-        "faceUnlock": "null",
-        "features": "null"
-    },
-    "others":{
-        "notificationLight": "null",
-        "sensors": "null",
-        "madeIn": "null"
-    }
 
+    "connectivity": {
+      "network": "2G, 3G, 4G",
+      "sim": "Dual Nano SIM",
+      "wlan": "i-Fi direct, Wi-Fi hotspot",
+      "usb": "v2.0",
+      "radio": "FM"
+    },
+    "body": {
+      "style": "null",
+      "material": "null",
+      "dimensions": "null",
+      "weight": "null"
+    },
+    "display": {
+      "size": "null",
+      "resolution": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "backCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "frontCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "performance": {
+      "operatingSystem": "null",
+      "chipset": "null",
+      "ram": ["4", "6", "8"],
+      "processor": "null",
+      "gpu": "null"
+    },
+    "storage": {
+      "rom": ["64", "128", "256"],
+
+      "microSDSlot": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "sound": {
+      "jack": "null",
+      "features": "null"
+    },
+    "security": {
+      "fingerprint": "null",
+      "faceUnlock": "null",
+      "features": "null"
+    },
+    "others": {
+      "notificationLight": "null",
+      "sensors": "null",
+      "madeIn": "null"
+    }
   },
-  
+
   {
+    "categories": "tablet",
     "deviceName": "OnePlus Nord",
     "price": "34,990",
-    "images":["https://www.mobiledokan.com/wp-content/uploads/2022/02/OnePlus-Nord-CE-2-5G-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"],
+    "images": [
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/OnePlus-Nord-CE-2-5G-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"
+    ],
     "released": "May 5, 2021",
     "colors": "Dusk Blue, Sunset Dazzle",
-    "general":{
-        "deviceType": "Smartphone",
-        "brand": "OnePlus",
-        "model": "OnePlus Nord",
-        "status": "Active"
+    "general": {
+      "deviceType": "Smartphone",
+      "brand": "OnePlus",
+      "model": "OnePlus Nord",
+      "status": "Active"
     },
-   
-    "connectivity":{
-        "network": "2G, 3G, 4G",
-        "sim": "Dual Nano SIM",
-        "wlan": "i-Fi direct, Wi-Fi hotspot",
-        "usb": "v2.0",
-        "radio": "FM"
-    },
-    "body":{
-        "style": "null",
-        "material": "null",
-        "dimensions": "null",
-        "weight": "null"
-    },
-    "display":{
-        "size": "null",
-        "resolution": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "backCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "frontCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "performance":{
-        "operatingSystem": "null",
-        "chipset": "null",
-        "ram": ["4","6","8"],
-        "processor": "null",
-        "gpu": "null"
-    },
-    "storage":{
-        "rom":["64", "128", "256"],
-            
-        "microSDSlot": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "sound":{
-        "jack": "null",
-        "features": "null"
-    },
-    "security":{
-        "fingerprint": "null",
-        "faceUnlock": "null",
-        "features": "null"
-    },
-    "others":{
-        "notificationLight": "null",
-        "sensors": "null",
-        "madeIn": "null"
-    }
 
+    "connectivity": {
+      "network": "2G, 3G, 4G",
+      "sim": "Dual Nano SIM",
+      "wlan": "i-Fi direct, Wi-Fi hotspot",
+      "usb": "v2.0",
+      "radio": "FM"
+    },
+    "body": {
+      "style": "null",
+      "material": "null",
+      "dimensions": "null",
+      "weight": "null"
+    },
+    "display": {
+      "size": "null",
+      "resolution": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "backCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "frontCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "performance": {
+      "operatingSystem": "null",
+      "chipset": "null",
+      "ram": ["4", "6", "8"],
+      "processor": "null",
+      "gpu": "null"
+    },
+    "storage": {
+      "rom": ["64", "128", "256"],
+
+      "microSDSlot": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "sound": {
+      "jack": "null",
+      "features": "null"
+    },
+    "security": {
+      "fingerprint": "null",
+      "faceUnlock": "null",
+      "features": "null"
+    },
+    "others": {
+      "notificationLight": "null",
+      "sensors": "null",
+      "madeIn": "null"
+    }
   },
   {
+    "categories": "tablet",
     "deviceName": "Xiaomi Redmi 10",
     "price": "16,999",
-    "images":["https://www.mobiledokan.com/wp-content/uploads/2022/02/Xiaomi-Redmi-10-2022-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"],
+    "images": [
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Xiaomi-Redmi-10-2022-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"
+    ],
     "released": "May 5, 2021",
     "colors": "Dusk Blue, Sunset Dazzle",
-    "general":{
-        "deviceType": "Smartphone",
-        "brand": "Xiaomi",
-        "model": "Xiaomi Redmi 10",
-        "status": "Active"
+    "general": {
+      "deviceType": "Smartphone",
+      "brand": "Xiaomi",
+      "model": "Xiaomi Redmi 10",
+      "status": "Active"
     },
-   
-    "connectivity":{
-        "network": "2G, 3G, 4G",
-        "sim": "Dual Nano SIM",
-        "wlan": "i-Fi direct, Wi-Fi hotspot",
-        "usb": "v2.0",
-        "radio": "FM"
-    },
-    "body":{
-        "style": "null",
-        "material": "null",
-        "dimensions": "null",
-        "weight": "null"
-    },
-    "display":{
-        "size": "null",
-        "resolution": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "backCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "frontCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "performance":{
-        "operatingSystem": "null",
-        "chipset": "null",
-        "ram": ["4","6","8"],
-        "processor": "null",
-        "gpu": "null"
-    },
-    "storage":{
-        "rom":["64", "128", "256"],
-            
-        "microSDSlot": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "sound":{
-        "jack": "null",
-        "features": "null"
-    },
-    "security":{
-        "fingerprint": "null",
-        "faceUnlock": "null",
-        "features": "null"
-    },
-    "others":{
-        "notificationLight": "null",
-        "sensors": "null",
-        "madeIn": "null"
-    }
 
-  }
-  ,
+    "connectivity": {
+      "network": "2G, 3G, 4G",
+      "sim": "Dual Nano SIM",
+      "wlan": "i-Fi direct, Wi-Fi hotspot",
+      "usb": "v2.0",
+      "radio": "FM"
+    },
+    "body": {
+      "style": "null",
+      "material": "null",
+      "dimensions": "null",
+      "weight": "null"
+    },
+    "display": {
+      "size": "null",
+      "resolution": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "backCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "frontCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "performance": {
+      "operatingSystem": "null",
+      "chipset": "null",
+      "ram": ["4", "6", "8"],
+      "processor": "null",
+      "gpu": "null"
+    },
+    "storage": {
+      "rom": ["64", "128", "256"],
+
+      "microSDSlot": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "sound": {
+      "jack": "null",
+      "features": "null"
+    },
+    "security": {
+      "fingerprint": "null",
+      "faceUnlock": "null",
+      "features": "null"
+    },
+    "others": {
+      "notificationLight": "null",
+      "sensors": "null",
+      "madeIn": "null"
+    }
+  },
   {
+    "categories": "tablet",
     "deviceName": "Nokia G20",
     "price": "14,999",
-    "images":["https://www.mobiledokan.com/wp-content/uploads/2021/11/Nokia-G20-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"],
+    "images": [
+      "https://www.mobiledokan.com/wp-content/uploads/2021/11/Nokia-G20-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"
+    ],
     "released": "May 5, 2021",
     "colors": "Dusk Blue, Sunset Dazzle",
-    "general":{
-        "deviceType": "Smartphone",
-        "brand": "Nokia",
-        "model": "Nokia G20",
-        "status": "Active"
+    "general": {
+      "deviceType": "Smartphone",
+      "brand": "Nokia",
+      "model": "Nokia G20",
+      "status": "Active"
     },
-   
-    "connectivity":{
-        "network": "2G, 3G, 4G",
-        "sim": "Dual Nano SIM",
-        "wlan": "i-Fi direct, Wi-Fi hotspot",
-        "usb": "v2.0",
-        "radio": "FM"
-    },
-    "body":{
-        "style": "null",
-        "material": "null",
-        "dimensions": "null",
-        "weight": "null"
-    },
-    "display":{
-        "size": "null",
-        "resolution": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "backCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "frontCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "performance":{
-        "operatingSystem": "null",
-        "chipset": "null",
-        "ram": ["4","6","8"],
-        "processor": "null",
-        "gpu": "null"
-    },
-    "storage":{
-        "rom":["64", "128", "256"],
-            
-        "microSDSlot": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "sound":{
-        "jack": "null",
-        "features": "null"
-    },
-    "security":{
-        "fingerprint": "null",
-        "faceUnlock": "null",
-        "features": "null"
-    },
-    "others":{
-        "notificationLight": "null",
-        "sensors": "null",
-        "madeIn": "null"
-    }
 
-  }
-  ,
+    "connectivity": {
+      "network": "2G, 3G, 4G",
+      "sim": "Dual Nano SIM",
+      "wlan": "i-Fi direct, Wi-Fi hotspot",
+      "usb": "v2.0",
+      "radio": "FM"
+    },
+    "body": {
+      "style": "null",
+      "material": "null",
+      "dimensions": "null",
+      "weight": "null"
+    },
+    "display": {
+      "size": "null",
+      "resolution": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "backCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "frontCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "performance": {
+      "operatingSystem": "null",
+      "chipset": "null",
+      "ram": ["4", "6", "8"],
+      "processor": "null",
+      "gpu": "null"
+    },
+    "storage": {
+      "rom": ["64", "128", "256"],
+
+      "microSDSlot": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "sound": {
+      "jack": "null",
+      "features": "null"
+    },
+    "security": {
+      "fingerprint": "null",
+      "faceUnlock": "null",
+      "features": "null"
+    },
+    "others": {
+      "notificationLight": "null",
+      "sensors": "null",
+      "madeIn": "null"
+    }
+  },
   {
+    "categories": "watch",
     "deviceName": "Nokia G10",
     "price": "14,999",
-    "images":["https://www.mobiledokan.com/wp-content/uploads/2021/11/Nokia-G10-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"],
+    "images": [
+      "https://www.mobiledokan.com/wp-content/uploads/2021/11/Nokia-G10-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"
+    ],
     "released": "May 5, 2021",
     "colors": "Dusk Blue, Sunset Dazzle",
-    "general":{
-        "deviceType": "Smartphone",
-        "brand": "Nokia",
-        "model": "Nokia G10",
-        "status": "Active"
+    "general": {
+      "deviceType": "Smartphone",
+      "brand": "Nokia",
+      "model": "Nokia G10",
+      "status": "Active"
     },
-   
-    "connectivity":{
-        "network": "2G, 3G, 4G",
-        "sim": "Dual Nano SIM",
-        "wlan": "i-Fi direct, Wi-Fi hotspot",
-        "usb": "v2.0",
-        "radio": "FM"
-    },
-    "body":{
-        "style": "null",
-        "material": "null",
-        "dimensions": "null",
-        "weight": "null"
-    },
-    "display":{
-        "size": "null",
-        "resolution": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "backCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "frontCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "performance":{
-        "operatingSystem": "null",
-        "chipset": "null",
-        "ram": ["4","6","8"],
-        "processor": "null",
-        "gpu": "null"
-    },
-    "storage":{
-        "rom":["64", "128", "256"],
-            
-        "microSDSlot": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "sound":{
-        "jack": "null",
-        "features": "null"
-    },
-    "security":{
-        "fingerprint": "null",
-        "faceUnlock": "null",
-        "features": "null"
-    },
-    "others":{
-        "notificationLight": "null",
-        "sensors": "null",
-        "madeIn": "null"
-    }
 
-  }
-  ,
+    "connectivity": {
+      "network": "2G, 3G, 4G",
+      "sim": "Dual Nano SIM",
+      "wlan": "i-Fi direct, Wi-Fi hotspot",
+      "usb": "v2.0",
+      "radio": "FM"
+    },
+    "body": {
+      "style": "null",
+      "material": "null",
+      "dimensions": "null",
+      "weight": "null"
+    },
+    "display": {
+      "size": "null",
+      "resolution": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "backCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "frontCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "performance": {
+      "operatingSystem": "null",
+      "chipset": "null",
+      "ram": ["4", "6", "8"],
+      "processor": "null",
+      "gpu": "null"
+    },
+    "storage": {
+      "rom": ["64", "128", "256"],
+
+      "microSDSlot": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "sound": {
+      "jack": "null",
+      "features": "null"
+    },
+    "security": {
+      "fingerprint": "null",
+      "faceUnlock": "null",
+      "features": "null"
+    },
+    "others": {
+      "notificationLight": "null",
+      "sensors": "null",
+      "madeIn": "null"
+    }
+  },
   {
+    "categories": "watch",
     "deviceName": "Nokia 3.4",
     "price": "14,999",
-    "images":["https://www.mobiledokan.com/wp-content/uploads/2021/09/Nokia-3.4-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"],
+    "images": [
+      "https://www.mobiledokan.com/wp-content/uploads/2021/09/Nokia-3.4-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"
+    ],
     "released": "May 5, 2021",
     "colors": "Dusk Blue, Sunset Dazzle",
-    "general":{
-        "deviceType": "Smartphone",
-        "brand": "Nokia",
-        "model": "Nokia 3.4",
-        "status": "Active"
+    "general": {
+      "deviceType": "Smartphone",
+      "brand": "Nokia",
+      "model": "Nokia 3.4",
+      "status": "Active"
     },
-   
-    "connectivity":{
-        "network": "2G, 3G, 4G",
-        "sim": "Dual Nano SIM",
-        "wlan": "i-Fi direct, Wi-Fi hotspot",
-        "usb": "v2.0",
-        "radio": "FM"
-    },
-    "body":{
-        "style": "null",
-        "material": "null",
-        "dimensions": "null",
-        "weight": "null"
-    },
-    "display":{
-        "size": "null",
-        "resolution": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "backCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "frontCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "performance":{
-        "operatingSystem": "null",
-        "chipset": "null",
-        "ram": ["4","6","8"],
-        "processor": "null",
-        "gpu": "null"
-    },
-    "storage":{
-        "rom":["64", "128", "256"],
-            
-        "microSDSlot": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "sound":{
-        "jack": "null",
-        "features": "null"
-    },
-    "security":{
-        "fingerprint": "null",
-        "faceUnlock": "null",
-        "features": "null"
-    },
-    "others":{
-        "notificationLight": "null",
-        "sensors": "null",
-        "madeIn": "null"
-    }
 
-  }
-  ,
+    "connectivity": {
+      "network": "2G, 3G, 4G",
+      "sim": "Dual Nano SIM",
+      "wlan": "i-Fi direct, Wi-Fi hotspot",
+      "usb": "v2.0",
+      "radio": "FM"
+    },
+    "body": {
+      "style": "null",
+      "material": "null",
+      "dimensions": "null",
+      "weight": "null"
+    },
+    "display": {
+      "size": "null",
+      "resolution": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "backCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "frontCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "performance": {
+      "operatingSystem": "null",
+      "chipset": "null",
+      "ram": ["4", "6", "8"],
+      "processor": "null",
+      "gpu": "null"
+    },
+    "storage": {
+      "rom": ["64", "128", "256"],
+
+      "microSDSlot": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "sound": {
+      "jack": "null",
+      "features": "null"
+    },
+    "security": {
+      "fingerprint": "null",
+      "faceUnlock": "null",
+      "features": "null"
+    },
+    "others": {
+      "notificationLight": "null",
+      "sensors": "null",
+      "madeIn": "null"
+    }
+  },
   {
+    "categories": "watch",
     "deviceName": "Apple iPhone SE 2020",
     "price": "51,990 ",
-    "images":["https://www.mobiledokan.com/wp-content/uploads/2020/04/Apple-iphone-SE-2020-white-new.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"],
+    "images": [
+      "https://www.mobiledokan.com/wp-content/uploads/2020/04/Apple-iphone-SE-2020-white-new.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"
+    ],
     "released": "May 5, 2021",
     "colors": "Dusk Blue, Sunset Dazzle",
-    "general":{
-        "deviceType": "Smartphone",
-        "brand": "Apple",
-        "model": "Apple iPhone SE 2020",
-        "status": "Active"
+    "general": {
+      "deviceType": "Smartphone",
+      "brand": "Apple",
+      "model": "Apple iPhone SE 2020",
+      "status": "Active"
     },
-   
-    "connectivity":{
-        "network": "2G, 3G, 4G",
-        "sim": "Dual Nano SIM",
-        "wlan": "i-Fi direct, Wi-Fi hotspot",
-        "usb": "v2.0",
-        "radio": "FM"
-    },
-    "body":{
-        "style": "null",
-        "material": "null",
-        "dimensions": "null",
-        "weight": "null"
-    },
-    "display":{
-        "size": "null",
-        "resolution": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "backCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "frontCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "performance":{
-        "operatingSystem": "null",
-        "chipset": "null",
-        "ram": ["4","6","8"],
-        "processor": "null",
-        "gpu": "null"
-    },
-    "storage":{
-        "rom":["64", "128", "256"],
-            
-        "microSDSlot": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "sound":{
-        "jack": "null",
-        "features": "null"
-    },
-    "security":{
-        "fingerprint": "null",
-        "faceUnlock": "null",
-        "features": "null"
-    },
-    "others":{
-        "notificationLight": "null",
-        "sensors": "null",
-        "madeIn": "null"
-    }
 
-  }
-  ,
+    "connectivity": {
+      "network": "2G, 3G, 4G",
+      "sim": "Dual Nano SIM",
+      "wlan": "i-Fi direct, Wi-Fi hotspot",
+      "usb": "v2.0",
+      "radio": "FM"
+    },
+    "body": {
+      "style": "null",
+      "material": "null",
+      "dimensions": "null",
+      "weight": "null"
+    },
+    "display": {
+      "size": "null",
+      "resolution": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "backCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "frontCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "performance": {
+      "operatingSystem": "null",
+      "chipset": "null",
+      "ram": ["4", "6", "8"],
+      "processor": "null",
+      "gpu": "null"
+    },
+    "storage": {
+      "rom": ["64", "128", "256"],
+
+      "microSDSlot": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "sound": {
+      "jack": "null",
+      "features": "null"
+    },
+    "security": {
+      "fingerprint": "null",
+      "faceUnlock": "null",
+      "features": "null"
+    },
+    "others": {
+      "notificationLight": "null",
+      "sensors": "null",
+      "madeIn": "null"
+    }
+  },
   {
+    "categories": "smartphone",
     "deviceName": "Apple iPhone 11",
     "price": "87,999",
-    "images":["https://www.mobiledokan.com/wp-content/uploads/2019/09/Apple-iPhone-11.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"],
+    "images": [
+      "https://www.mobiledokan.com/wp-content/uploads/2019/09/Apple-iPhone-11.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"
+    ],
     "released": "Jun 10, 2021",
     "colors": "Dusk Blue, Sunset Dazzle",
-    "general":{
-        "deviceType": "Smartphone",
-        "brand": "Apple",
-        "model": "Apple iPhone 11",
-        "status": "Active"
+    "general": {
+      "deviceType": "Smartphone",
+      "brand": "Apple",
+      "model": "Apple iPhone 11",
+      "status": "Active"
     },
-   
-    "connectivity":{
-        "network": "2G, 3G, 4G",
-        "sim": "Dual Nano SIM",
-        "wlan": "i-Fi direct, Wi-Fi hotspot",
-        "usb": "v2.0",
-        "radio": "FM"
-    },
-    "body":{
-        "style": "null",
-        "material": "null",
-        "dimensions": "null",
-        "weight": "null"
-    },
-    "display":{
-        "size": "null",
-        "resolution": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "backCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "frontCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "performance":{
-        "operatingSystem": "null",
-        "chipset": "null",
-        "ram": ["4","6","8"],
-        "processor": "null",
-        "gpu": "null"
-    },
-    "storage":{
-        "rom":["64", "128", "256"],
-            
-        "microSDSlot": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "sound":{
-        "jack": "null",
-        "features": "null"
-    },
-    "security":{
-        "fingerprint": "null",
-        "faceUnlock": "null",
-        "features": "null"
-    },
-    "others":{
-        "notificationLight": "null",
-        "sensors": "null",
-        "madeIn": "null"
-    }
 
-  }
-  ,
+    "connectivity": {
+      "network": "2G, 3G, 4G",
+      "sim": "Dual Nano SIM",
+      "wlan": "i-Fi direct, Wi-Fi hotspot",
+      "usb": "v2.0",
+      "radio": "FM"
+    },
+    "body": {
+      "style": "null",
+      "material": "null",
+      "dimensions": "null",
+      "weight": "null"
+    },
+    "display": {
+      "size": "null",
+      "resolution": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "backCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "frontCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "performance": {
+      "operatingSystem": "null",
+      "chipset": "null",
+      "ram": ["4", "6", "8"],
+      "processor": "null",
+      "gpu": "null"
+    },
+    "storage": {
+      "rom": ["64", "128", "256"],
+
+      "microSDSlot": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "sound": {
+      "jack": "null",
+      "features": "null"
+    },
+    "security": {
+      "fingerprint": "null",
+      "faceUnlock": "null",
+      "features": "null"
+    },
+    "others": {
+      "notificationLight": "null",
+      "sensors": "null",
+      "madeIn": "null"
+    }
+  },
   {
+    "categories": "smartphone",
     "deviceName": "Apple iPhone X",
     "price": "84,999",
-    "images":["https://www.mobiledokan.com/wp-content/uploads/2019/03/Apple-iPhone-X-Grey.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg", "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"],
+    "images": [
+      "https://www.mobiledokan.com/wp-content/uploads/2019/03/Apple-iPhone-X-Grey.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-V23e-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/01/Vivo-V23-5G-image.jpg",
+      "https://www.mobiledokan.com/wp-content/uploads/2022/02/Vivo-Y21T-image.jpg"
+    ],
     "released": "May 5, 2021",
     "colors": "Dusk Blue, Sunset Dazzle",
-    "general":{
-        "deviceType": "Smartphone",
-        "brand": "Apple",
-        "model": "Apple iPhone X",
-        "status": "Active"
+    "general": {
+      "deviceType": "Smartphone",
+      "brand": "Apple",
+      "model": "Apple iPhone X",
+      "status": "Active"
     },
-   
-    "connectivity":{
-        "network": "2G, 3G, 4G",
-        "sim": "Dual Nano SIM",
-        "wlan": "i-Fi direct, Wi-Fi hotspot",
-        "usb": "v2.0",
-        "radio": "FM"
-    },
-    "body":{
-        "style": "null",
-        "material": "null",
-        "dimensions": "null",
-        "weight": "null"
-    },
-    "display":{
-        "size": "null",
-        "resolution": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "backCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "frontCamera":{
-        "resolution": "null",
-        "features": "null",
-        "videoRecording": "null"   
-    },
-    "performance":{
-        "operatingSystem": "null",
-        "chipset": "null",
-        "ram": ["4","6","8"],
-        "processor": "null",
-        "gpu": "null"
-    },
-    "storage":{
-        "rom":["64", "128", "256"],
-            
-        "microSDSlot": "null",
-        "technology": "null",
-        "protection": "null",
-        "features": "null"
-    },
-    "sound":{
-        "jack": "null",
-        "features": "null"
-    },
-    "security":{
-        "fingerprint": "null",
-        "faceUnlock": "null",
-        "features": "null"
-    },
-    "others":{
-        "notificationLight": "null",
-        "sensors": "null",
-        "madeIn": "null"
-    }
 
+    "connectivity": {
+      "network": "2G, 3G, 4G",
+      "sim": "Dual Nano SIM",
+      "wlan": "i-Fi direct, Wi-Fi hotspot",
+      "usb": "v2.0",
+      "radio": "FM"
+    },
+    "body": {
+      "style": "null",
+      "material": "null",
+      "dimensions": "null",
+      "weight": "null"
+    },
+    "display": {
+      "size": "null",
+      "resolution": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "backCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "frontCamera": {
+      "resolution": "null",
+      "features": "null",
+      "videoRecording": "null"
+    },
+    "performance": {
+      "operatingSystem": "null",
+      "chipset": "null",
+      "ram": ["4", "6", "8"],
+      "processor": "null",
+      "gpu": "null"
+    },
+    "storage": {
+      "rom": ["64", "128", "256"],
+
+      "microSDSlot": "null",
+      "technology": "null",
+      "protection": "null",
+      "features": "null"
+    },
+    "sound": {
+      "jack": "null",
+      "features": "null"
+    },
+    "security": {
+      "fingerprint": "null",
+      "faceUnlock": "null",
+      "features": "null"
+    },
+    "others": {
+      "notificationLight": "null",
+      "sensors": "null",
+      "madeIn": "null"
+    }
   }
 ]

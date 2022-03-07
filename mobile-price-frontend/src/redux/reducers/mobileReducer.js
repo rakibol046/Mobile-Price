@@ -8,8 +8,8 @@ export const mobileSlice = createSlice({
     price: 0
   },
   reducers: {
-    setMobiles: (state, action) => {
-        state.mobiles = action.payload
+    setMobiles: (state, {payload}) => {
+        state.mobiles = payload
     },
     setBrand: (state, action) => {
         state.brand = action.payload

@@ -7,10 +7,9 @@
   border-radius: 0 20px 20px 0;
   width: 30%;
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 2px 0px 0 rgba(0, 0, 0, 0.19);
- 
 }
-hr{
-    margin: 0 30px;
+hr {
+  margin: 0 30px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -20,9 +19,12 @@ hr{
     color: rgb(0, 0, 0);
     padding: 10px;
     margin: 30px;
-    border-radius: 0 20px 20px 0;
+    text-align: center;
+    border-radius: 0;
     width: auto;
     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 2px 0px 0 rgba(0, 0, 0, 0.19);
-   
+  }
+  hr {
+    display: none;
   }
 }

@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import MobileCard from './Card'
 import axios from 'axios';
 import { useDispatch, useSelector } from 'react-redux';
-import { setMobiles, setBrand, setPrice } from '../store/Reducers/mobileReducer';
+import { setMobiles, setBrand, setPrice } from '../redux/reducers/mobileReducer';
 
 
 export default function Cards({url}) {

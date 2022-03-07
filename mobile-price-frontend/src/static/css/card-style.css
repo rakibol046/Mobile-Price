@@ -14,7 +14,7 @@
   transform: translateY(-5px);
 }
 
-.device-name .mname{
+.device-name .mname {
   font-size: 1.3rem;
 }
 .card-footer {
@@ -26,7 +26,6 @@
 .card-footer strong {
   font-size: 1.2rem;
 }
-
 
 @media only screen and (max-width: 700px) {
   .cards {
@@ -41,7 +40,7 @@
   .card-footer strong {
     font-size: 1rem;
   }
-  .device-name .mname{
+  .device-name .mname {
     font-size: 1rem;
   }
 }

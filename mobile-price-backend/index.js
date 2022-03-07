@@ -11,6 +11,9 @@ const getLaptop = require("./controller/laptop.controller")
 const {allPhones, phone} = require("./controller/phone.controller")
 const getWatch = require("./controller/watch.controller");
 
+const clientRoutes =  require('./routes/client/routes')
+const adminRoutes =  require('./routes/admin/routes')
+
 
 //Create Express APP
 const app = express();
@@ -38,10 +41,9 @@ app.use(express.static(path.join(__dirname, "public")))
 
 //routing setup
 app.get("/", getAllData);
-app.get("/phones", allPhones);
-app.get("/phones/:deviceId", phone);
-app.get("/laptops", getLaptop);
-app.get("/watch", getWatch);
+
+app.use("/client",clientRoutes);
+// app.use(adminRoutes);
 
 //404 not found handler
 app.use(notFoundHandler);

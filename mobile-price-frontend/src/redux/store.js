@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit'
-import mobileReducer from './Reducers/mobileReducer'
+import mobileReducer from './reducers/mobileReducer'
 
 export default configureStore({
   reducer: {

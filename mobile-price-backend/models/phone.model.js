@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
 var PhoneSchema = new mongoose.Schema({
+    categories : String,
     deviceName: {
         type: String,
         required: true

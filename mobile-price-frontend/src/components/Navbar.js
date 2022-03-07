@@ -40,6 +40,7 @@ export default function Navbar() {
 
       2nd navbar start */}
       <nav className= {menu? "navbar2 active" : "navbar2" }>
+        <NavLink to="/" className={(navinfo) => (navinfo.isActive? "nav-active" : "")}  onClick={()=>{setMenu(!menu)}}>Home</NavLink>
         <NavLink to="/phones" className={(navinfo) => (navinfo.isActive? "nav-active" : "")}  onClick={()=>{setMenu(!menu)}}>Smartphone</NavLink>
         <NavLink to="/tablets" className={(navinfo) => (navinfo.isActive? "nav-active" : "")} onClick={()=>{setMenu(!menu)}}>Tablet</NavLink>
         <NavLink to="/laptops" className={(navinfo) => (navinfo.isActive? "nav-active" : "")} onClick={()=>{setMenu(!menu)}}>Laptop</NavLink>
