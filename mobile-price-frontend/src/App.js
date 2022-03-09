@@ -4,6 +4,8 @@ import {
 import './App.css';
 import Home from './components/Home';
 import MobileDetails from './components/MobileDetails';
+import TabletDetails from './components/TabletDetails';
+import WatchDetails from './components/WatchDetails';
 import Navbar from './components/Navbar';
 import Phones from './components/Phones';
 import Tablets from './components/Tablets';
@@ -25,12 +27,15 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path='/phones' element={<Phones />} />
-        <Route path='/phones/:deviceId' element={<MobileDetails bal="heda" />} />
+        <Route path='/phones/:deviceId' element={<MobileDetails />} />
   
         <Route path='tablets' element={<Tablets />} />
+        <Route path='/tablets/:deviceId' element={<TabletDetails />} />
+  
         {/* <Route path='laptops' element={<Phones />} />
         <Route path='desktops' element={<Phones />} /> */}
         <Route path='watches' element={<Watches />} />
+        <Route path='/watches/:deviceId' element={<WatchDetails />} />
         {/* <Route path='headphones' element={<Phones />} /> */}
 
         <Route path='details' element={<MobileDetails />} />

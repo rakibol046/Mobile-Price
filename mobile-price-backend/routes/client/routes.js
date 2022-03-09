@@ -7,11 +7,11 @@ const {allWatchsCotroller, watchController} = require("../../controller/watch.co
 
 
 Route.get("/phones", allPhonesCotroller);
-Route.get("/phone/:deviceId", phoneController);
+Route.get("/phones/:deviceId", phoneController);
 Route.get("/tablets", allTabletsCotroller);
-Route.get("/tablet/:deviceId", tabletController);
+Route.get("/tablets/:deviceId", tabletController);
 Route.get("/watches", allWatchsCotroller);
-Route.get("/watch/:deviceId", watchController);
+Route.get("/watches/:deviceId", watchController);
 
 
 
