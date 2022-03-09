@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from "react-router-dom";
+import { useDispatch } from 'react-redux';
+import {setBrand, setPrice } from '../redux/reducers/productSlice';
 
 export default function Navbar() {
     const [menu, setMenu] = useState(false);
+    const dispatch = useDispatch();
     
     // const handleFilter = () =>{
     //   console.log("filter btn clicked")
@@ -40,13 +43,13 @@ export default function Navbar() {
 
       2nd navbar start */}
       <nav className= {menu? "navbar2 active" : "navbar2" }>
-        <NavLink to="/" className={(navinfo) => (navinfo.isActive? "nav-active" : "")}  onClick={()=>{setMenu(!menu)}}>Home</NavLink>
-        <NavLink to="/phones" className={(navinfo) => (navinfo.isActive? "nav-active" : "")}  onClick={()=>{setMenu(!menu)}}>Smartphone</NavLink>
-        <NavLink to="/tablets" className={(navinfo) => (navinfo.isActive? "nav-active" : "")} onClick={()=>{setMenu(!menu)}}>Tablet</NavLink>
-        <NavLink to="/laptops" className={(navinfo) => (navinfo.isActive? "nav-active" : "")} onClick={()=>{setMenu(!menu)}}>Laptop</NavLink>
-        <NavLink to="/desktops" className={(navinfo) => (navinfo.isActive? "nav-active" : "")}  onClick={()=>{setMenu(!menu)}}>Desktop</NavLink>
-        <NavLink to="/watches" className={(navinfo) => (navinfo.isActive? "nav-active" : "")} onClick={()=>{setMenu(!menu)}}>Watch</NavLink>
-        <NavLink to="/headphones" className={(navinfo) => (navinfo.isActive? "nav-active" : "")}  onClick={()=>{setMenu(!menu)}}>Headphone</NavLink>
+        <NavLink to="/" className={(navinfo) => (navinfo.isActive? "nav-active" : "")}  onClick={()=>{setMenu(!menu); dispatch(setBrand("all")); dispatch(setPrice(0));}}>Home</NavLink>
+        <NavLink to="/phones" className={(navinfo) => (navinfo.isActive? "nav-active" : "")}  onClick={()=>{setMenu(!menu); dispatch(setBrand("all")); dispatch(setPrice(0)); }}>Smartphone</NavLink>
+        <NavLink to="/tablets" className={(navinfo) => (navinfo.isActive? "nav-active" : "")} onClick={()=>{setMenu(!menu); dispatch(setBrand("all")); dispatch(setPrice(0));}}>Tablet</NavLink>
+        <NavLink to="/laptops" className={(navinfo) => (navinfo.isActive? "nav-active" : "")} onClick={()=>{setMenu(!menu); dispatch(setBrand("all")); dispatch(setPrice(0));}}>Laptop</NavLink>
+        <NavLink to="/desktops" className={(navinfo) => (navinfo.isActive? "nav-active" : "")}  onClick={()=>{setMenu(!menu); dispatch(setBrand("all")); dispatch(setPrice(0));}}>Desktop</NavLink>
+        <NavLink to="/watches" className={(navinfo) => (navinfo.isActive? "nav-active" : "")} onClick={()=>{setMenu(!menu); dispatch(setBrand("all")); dispatch(setPrice(0));}}>Watch</NavLink>
+        <NavLink to="/headphones" className={(navinfo) => (navinfo.isActive? "nav-active" : "")}  onClick={()=>{setMenu(!menu); dispatch(setBrand("all")); dispatch(setPrice(0));}}>Headphone</NavLink>
       </nav>
 
       

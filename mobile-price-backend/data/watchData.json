@@ -1,0 +1,369 @@
+[
+    {
+      "categories": "watch",
+      "deviceName": "Xiaomi Haylou Solar",
+      "price": ["2,990", "12,999"],
+      "images": [
+        "https://www.startech.com.bd/image/cache/catalog/watch/xiaomi/haylou-solar-ls05-1/haylou-solar-ls05-1-001-500x500.jpg",
+        "https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/mibro-air/mibro-air-228x228.jpg"
+
+      ],
+      "released": "November 9, 2021",
+      "colors": "Wave Green, Mystic Blue",
+      "general": {
+        "deviceType": "Smartphone",
+        "brand": "Xiaomi",
+        "model": "Vivo Y15s",
+        "status": "Active"
+      },
+      "performance": {
+        
+        "ram": ["4", "6", "8"]
+       
+      },
+      "storage": {
+        "rom": ["64", "128", "256"]
+
+      }
+      
+    },
+    {
+      "categories": "watch",
+      "deviceName": "Xiaomi XPAW001 Mibro",
+      "price": ["1,990", "12,999"],
+      "images": [
+        "https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/mibro-air/mibro-air-228x228.jpg",
+        "https://www.startech.com.bd/image/cache/catalog/watch/xiaomi/haylou-solar-ls05-1/haylou-solar-ls05-1-001-500x500.jpg",
+        "https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/mibro-air/mibro-air-228x228.jpg"
+
+      ],
+      "released": "November 9, 2021",
+      "colors": "Wave Green, Mystic Blue",
+      "general": {
+        "deviceType": "Smartphone",
+        "brand": "Xiaomi",
+        "model": "Vivo Y15s",
+        "status": "Active"
+      },
+      "performance": {
+        
+        "ram": ["4", "6", "8"]
+       
+      },
+      "storage": {
+        "rom": ["64", "128", "256"]
+
+      }
+      
+    },
+    {
+      "categories": "watch",
+      "deviceName": "Xiaomi Haylou GST",
+      "price": ["2,990", "12,999"],
+      "images": [
+        "https://www.startech.com.bd/image/cache/catalog/watch/xiaomi/haylou-gst-ls09b/haylou-gst-ls09b-01-228x228.jpg",
+        "https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/mibro-air/mibro-air-228x228.jpg"
+
+      ],
+      "released": "November 9, 2021",
+      "colors": "Wave Green, Mystic Blue",
+      "general": {
+        "deviceType": "Smartphone",
+        "brand": "Xiaomi",
+        "model": "Vivo Y15s",
+        "status": "Active"
+      },
+      "performance": {
+        
+        "ram": ["4", "6", "8"]
+       
+      },
+      "storage": {
+        "rom": ["64", "128", "256"]
+
+      }
+      
+    },
+    {
+      "categories": "watch",
+      "deviceName": "Xiaomi IMILAB KW66",
+      "price": ["5,990", "12,999"],
+      "images": [
+        "https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/imlab-kw66/kw66-228x228.jpg",
+        "https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/mibro-air/mibro-air-228x228.jpg"
+
+      ],
+      "released": "November 9, 2021",
+      "colors": "Wave Green, Mystic Blue",
+      "general": {
+        "deviceType": "Smartphone",
+        "brand": "Xiaomi",
+        "model": "Vivo Y15s",
+        "status": "Active"
+      },
+      "performance": {
+        
+        "ram": ["4", "6", "8"]
+       
+      },
+      "storage": {
+        "rom": ["64", "128", "256"]
+
+      }
+      
+    },
+    {
+      "categories": "watch",
+      "deviceName": "Xiaomi Amazfit Bip",
+      "price": ["2,990", "12,999"],
+      "images": [
+        "https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/amazfit-bip-u-pro/amazfit-bip-u-pro-228x228.jpg",
+        "https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/mibro-air/mibro-air-228x228.jpg"
+
+      ],
+      "released": "November 9, 2021",
+      "colors": "Wave Green, Mystic Blue",
+      "general": {
+        "deviceType": "Smartphone",
+        "brand": "Xiaomi",
+        "model": "Vivo Y15s",
+        "status": "Active"
+      },
+      "performance": {
+        
+        "ram": ["4", "6", "8"]
+       
+      },
+      "storage": {
+        "rom": ["64", "128", "256"]
+
+      }
+      
+    },
+    {
+      "categories": "watch",
+      "deviceName": "Apple SE A2351",
+      "price": ["2,990", "12,999"],
+      "images": [
+        "https://www.startech.com.bd/image/cache/catalog/smart-watch/apple/apple-watch-se/apple-watch-se-01-228x228.jpg",
+        "https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/mibro-air/mibro-air-228x228.jpg"
+
+      ],
+      "released": "November 9, 2021",
+      "colors": "Wave Green, Mystic Blue",
+      "general": {
+        "deviceType": "Smartphone",
+        "brand": "Apple",
+        "model": "Vivo Y15s",
+        "status": "Active"
+      },
+      "performance": {
+        
+        "ram": ["4", "6", "8"]
+       
+      },
+      "storage": {
+        "rom": ["64", "128", "256"]
+
+      }
+      
+    },
+    {
+      "categories": "watch",
+      "deviceName": "Apple Starlight Nike",
+      "price": ["2,990", "12,999"],
+      "images": [
+        "https://www.startech.com.bd/image/cache/catalog/smart-watch/apple/apple-watch-nike/starlight/apple-watch-nike-starlight-01-228x228.jpg",
+        "https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/mibro-air/mibro-air-228x228.jpg"
+
+      ],
+      "released": "November 9, 2021",
+      "colors": "Wave Green, Mystic Blue",
+      "general": {
+        "deviceType": "Smartphone",
+        "brand": "Apple",
+        "model": "Vivo Y15s",
+        "status": "Active"
+      },
+      "performance": {
+        
+        "ram": ["4", "6", "8"]
+       
+      },
+      "storage": {
+        "rom": ["64", "128", "256"]
+
+      }
+      
+    },
+    {
+      "categories": "watch",
+      "deviceName": "Xiaomi Haylou Solar",
+      "price": ["2,990", "12,999"],
+      "images": [
+        "https://www.startech.com.bd/image/cache/catalog/watch/xiaomi/haylou-solar-ls05-1/haylou-solar-ls05-1-001-500x500.jpg",
+        "https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/mibro-air/mibro-air-228x228.jpg"
+
+      ],
+      "released": "November 9, 2021",
+      "colors": "Wave Green, Mystic Blue",
+      "general": {
+        "deviceType": "Smartphone",
+        "brand": "Apple",
+        "model": "Vivo Y15s",
+        "status": "Active"
+      },
+      "performance": {
+        
+        "ram": ["4", "6", "8"]
+       
+      },
+      "storage": {
+        "rom": ["64", "128", "256"]
+
+      }
+      
+    },
+    {
+      "categories": "watch",
+      "deviceName": "Xiaomi Haylou Solar",
+      "price": ["2,990", "12,999"],
+      "images": [
+        "https://www.startech.com.bd/image/cache/catalog/watch/xiaomi/haylou-solar-ls05-1/haylou-solar-ls05-1-001-500x500.jpg",
+        "https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/mibro-air/mibro-air-228x228.jpg"
+
+      ],
+      "released": "November 9, 2021",
+      "colors": "Wave Green, Mystic Blue",
+      "general": {
+        "deviceType": "Smartphone",
+        "brand": "Apple",
+        "model": "Vivo Y15s",
+        "status": "Active"
+      },
+      "performance": {
+        
+        "ram": ["4", "6", "8"]
+       
+      },
+      "storage": {
+        "rom": ["64", "128", "256"]
+
+      }
+      
+    },
+    {
+      "categories": "watch",
+      "deviceName": "Xiaomi Haylou Solar",
+      "price": ["2,990", "12,999"],
+      "images": [
+        "https://www.startech.com.bd/image/cache/catalog/watch/xiaomi/haylou-solar-ls05-1/haylou-solar-ls05-1-001-500x500.jpg",
+        "https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/mibro-air/mibro-air-228x228.jpg"
+
+      ],
+      "released": "November 9, 2021",
+      "colors": "Wave Green, Mystic Blue",
+      "general": {
+        "deviceType": "Smartphone",
+        "brand": "Apple",
+        "model": "Vivo Y15s",
+        "status": "Active"
+      },
+      "performance": {
+        
+        "ram": ["4", "6", "8"]
+       
+      },
+      "storage": {
+        "rom": ["64", "128", "256"]
+
+      }
+      
+    },
+    {
+      "categories": "watch",
+      "deviceName": "Xiaomi Haylou Solar",
+      "price": ["2,990", "12,999"],
+      "images": [
+        "https://www.startech.com.bd/image/cache/catalog/watch/xiaomi/haylou-solar-ls05-1/haylou-solar-ls05-1-001-500x500.jpg",
+        "https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/mibro-air/mibro-air-228x228.jpg"
+
+      ],
+      "released": "November 9, 2021",
+      "colors": "Wave Green, Mystic Blue",
+      "general": {
+        "deviceType": "Smartphone",
+        "brand": "Apple",
+        "model": "Vivo Y15s",
+        "status": "Active"
+      },
+      "performance": {
+        
+        "ram": ["4", "6", "8"]
+       
+      },
+      "storage": {
+        "rom": ["64", "128", "256"]
+
+      }
+      
+    },
+    {
+      "categories": "watch",
+      "deviceName": "Xiaomi Haylou Solar",
+      "price": ["2,990", "12,999"],
+      "images": [
+        "https://www.startech.com.bd/image/cache/catalog/watch/xiaomi/haylou-solar-ls05-1/haylou-solar-ls05-1-001-500x500.jpg",
+        "https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/mibro-air/mibro-air-228x228.jpg"
+
+      ],
+      "released": "November 9, 2021",
+      "colors": "Wave Green, Mystic Blue",
+      "general": {
+        "deviceType": "Smartphone",
+        "brand": "Apple",
+        "model": "Vivo Y15s",
+        "status": "Active"
+      },
+      "performance": {
+        
+        "ram": ["4", "6", "8"]
+       
+      },
+      "storage": {
+        "rom": ["64", "128", "256"]
+
+      }
+      
+    },
+    {
+      "categories": "watch",
+      "deviceName": "Xiaomi Haylou Solar",
+      "price": ["2,990", "12,999"],
+      "images": [
+        "https://www.startech.com.bd/image/cache/catalog/watch/xiaomi/haylou-solar-ls05-1/haylou-solar-ls05-1-001-500x500.jpg",
+        "https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/mibro-air/mibro-air-228x228.jpg"
+
+      ],
+      "released": "November 9, 2021",
+      "colors": "Wave Green, Mystic Blue",
+      "general": {
+        "deviceType": "Smartphone",
+        "brand": "Apple",
+        "model": "Vivo Y15s",
+        "status": "Active"
+      },
+      "performance": {
+        
+        "ram": ["4", "6", "8"]
+       
+      },
+      "storage": {
+        "rom": ["64", "128", "256"]
+
+      }
+      
+    }
+ 
+  ]
+  

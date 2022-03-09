@@ -15,7 +15,7 @@ export default function MobileDetails() {
     const [mobile, setMobile] = useState({});
     const [images, setImages] = useState([]);
     useEffect(()=>{
-      axios.get(`http://localhost:3000/client/phones/${params.deviceId}`)
+      axios.get(`http://localhost:3000/client/tablets/${params.deviceId}`)
       .then((res) =>{
         setMobile(res.data)
         setImages(res.data.images)

@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { setBrand, setPrice } from '../redux/reducers/mobileReducer';
+import { setBrand, setPrice } from '../redux/reducers/productSlice';
 
 
 export default function PriceAndBrand({brands}) {
   const [filter, setFilter] = useState(false);
-  const price = useSelector((state) => state.mobile.price);
+  const price = useSelector((state) => state.product.price);
   const dispatch = useDispatch()
   console.log(brands)
   return (
@@ -14,7 +14,7 @@ export default function PriceAndBrand({brands}) {
       
        <div className="filter-and-brand">
         <button className="top-filter-btn" type="button" onClick={()=>{setFilter(!filter)}} ><i className="fa-solid fa-align-left"> </i>Filter</button>
-        <button className='active-price-btn'>{price}</button>
+        <button className='active-price-btn'>{price===0? "": price}</button>
         <div className="brand-area">
           <lavel>Brand</lavel>
           <select id="brand" onChange={(e) => dispatch(setBrand(e.target.value)) }>
