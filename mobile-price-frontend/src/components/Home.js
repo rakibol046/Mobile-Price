@@ -1,6 +1,8 @@
 import React from 'react'
 import LatestDeviceMessage from './LatestDeviceMessage'
 import Cards from './Cards'
+import Skeleton  from './Skeleton'
+
 
 export default function Home() {
   return (
