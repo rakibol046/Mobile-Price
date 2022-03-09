@@ -1,13 +1,12 @@
-import React, {useState, useEffect} from 'react'
+import React, {useEffect} from 'react'
 import MobileCard from './Card'
 import axios from 'axios';
 import { useDispatch, useSelector } from 'react-redux';
-import { setMobiles, setBrand, setPrice } from '../redux/reducers/mobileReducer';
+import { setMobiles } from '../redux/reducers/mobileSlice';
 
 
 export default function Cards({url}) {
-    // const [mobiles, setMobiles] = useState([]);
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
     useEffect(()=>{
       axios.get(url)
       .then((res) =>{
@@ -26,8 +25,8 @@ export default function Cards({url}) {
   return (
     <div className='cards'>
       {mobiles.filter((mobile)=>{
-            if(brand =="" | brand =="all") return mobile;
-            else if(mobile.general.brand.toLowerCase() == brand.toLowerCase()) return mobile;
+            if(brand ==="" | brand ==="all") return mobile;
+            else if(mobile.general.brand.toLowerCase() === brand.toLowerCase()) return mobile;
       })
       .filter((mobile)=>{
         if(price === 0 | price === 1) return mobile;

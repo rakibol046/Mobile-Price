@@ -1,8 +1,12 @@
-import { configureStore } from '@reduxjs/toolkit'
-import mobileReducer from './reducers/mobileReducer'
+import { configureStore } from '@reduxjs/toolkit';
+import mobileSlice from './reducers/mobileSlice';
+import { watchSlice } from './reducers/watchSlice';
+import { tabletSlice } from './reducers/tabletSlice';
 
 export default configureStore({
   reducer: {
-    mobile: mobileReducer,
+    mobile: mobileSlice,
+    watch: watchSlice,
+    tablet: tabletSlice
   },
 })
