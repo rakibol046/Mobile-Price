@@ -3,13 +3,13 @@ import { createSlice } from '@reduxjs/toolkit'
 export const watchSlice = createSlice({
   name: 'watches',
   initialState: {
-    mobiles: [],
+    watches: [],
     brand: "",
     price: 0
   },
   reducers: {
     setWatches: (state, {payload}) => {
-        state.mobiles = payload
+        state.watches = payload
     },
     setBrand: (state, action) => {
         state.brand = action.payload

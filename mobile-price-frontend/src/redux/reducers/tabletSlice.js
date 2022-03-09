@@ -1,15 +1,15 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 export const tabletSlice = createSlice({
-  name: 'mobiles',
+  name: 'tablets',
   initialState: {
-    mobiles: [],
+    tablets: [],
     brand: "",
     price: 0
   },
   reducers: {
     setTablets: (state, {payload}) => {
-        state.mobiles = payload
+        state.tablets = payload
     },
     setBrand: (state, action) => {
         state.brand = action.payload
