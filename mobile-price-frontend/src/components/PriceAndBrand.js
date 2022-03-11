@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { setBrand, setPrice } from '../redux/reducers/productSlice';
 
@@ -7,7 +7,12 @@ export default function PriceAndBrand({brands}) {
   const [filter, setFilter] = useState(false);
   const price = useSelector((state) => state.product.price);
   const dispatch = useDispatch()
-  console.log(brands)
+  useEffect(() => {
+    return () => {
+      dispatch(setPrice(0));
+      dispatch(setBrand("all"));
+    }
+  }, [])
   return (
     <div className='filter-and-brand-container'>
        {/* Filter abd Brand section for desktop*/}
@@ -39,7 +44,7 @@ export default function PriceAndBrand({brands}) {
      {/* Filter abd Brand price range popup*/}
       <div className={filter? "popup popupactive" : "popup" }>
         <span>Price</span>
-        <button onClick={()=>{setFilter(!filter); dispatch(setPrice(5000)) }} type="button" className="price-range-btn">0-5,000</button>
+        <button onClick={()=>{setFilter(!filter); dispatch(setPrice(0)) }} type="button" className="price-range-btn">All</button>
         <button onClick={()=>{setFilter(!filter); dispatch(setPrice(10000)) }} type="button" className="price-range-btn">5,000-10,000</button>
         <button onClick={()=>{setFilter(!filter); dispatch(setPrice(20000)) }} type="button" className="price-range-btn">10,000-20,000</button>
         <button onClick={()=>{setFilter(!filter); dispatch(setPrice(30000)) }} type="button" className="price-range-btn">20,000-30,000</button>

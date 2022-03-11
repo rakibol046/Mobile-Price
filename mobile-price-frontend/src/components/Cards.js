@@ -17,6 +17,10 @@ export default function Cards({url}) {
       }).catch((err) =>{
         console.log(err)
       })
+
+      return () =>{
+        dispatch(setProducts([]))
+      }
     }, []);
 
     const products = useSelector((state) => state.product.products);
@@ -31,7 +35,7 @@ export default function Cards({url}) {
             else if(product.general.brand.toLowerCase() === brand.toLowerCase()) return product;
       })
       .filter((product)=>{
-        if(price === 0 | price === 1) return product;
+        if(price === 0) return product;
         else if(parseInt((product.price[0]).replace(/,/g,"")) <= price) return product;         
       })
       .map(product => <MobileCard key={product.id} deviceId ={product._id} img={product.images[0]} deviceName={product.deviceName} price={product.price[0]} ram="6" rom="128"/>)

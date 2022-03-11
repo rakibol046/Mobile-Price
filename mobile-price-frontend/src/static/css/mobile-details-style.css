@@ -9,7 +9,9 @@
   grid-gap: 5px;
 }
 
-.mobile-images {
+h4{
+  color: orange;
+  text-align: center;
 }
 .mobile-images img {
   height: 350px;

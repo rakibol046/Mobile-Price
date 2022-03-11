@@ -12,7 +12,7 @@ export default function MobileDetails() {
         // { width: 768, itemsToShow: 3 },
         // { width: 1200, itemsToShow: 4 }
       ];
-    const [mobile, setMobile] = useState({});
+    const [mobile, setMobile] = useState([]);
     const [images, setImages] = useState([]);
     useEffect(()=>{
       axios.get(`http://localhost:3000/client/phones/${params.deviceId}`)
@@ -25,10 +25,15 @@ export default function MobileDetails() {
       }).catch((err) =>{
         console.log(`url error the error is ${err}`)
       })
+      return () =>{
+          setMobile([])
+      }
     }, []);
   return (
     <div className='mobile-details-container'>
-        <div className="mobile-images">
+      {mobile!="" ? 
+       <>
+       <div className="mobile-images">
         <Carousel breakPoints={breakPoints} className='carousel'>
         {images.map(image => <img src={image} />)}
 
@@ -42,7 +47,7 @@ export default function MobileDetails() {
             <div className="official-price">
                 <h3>Official Price</h3>
                 <div className="variant">
-                <p>৳{mobile.price} 3/32GB</p>
+                <p>৳{mobile.price[0]} 3/32GB</p>
                 <p>৳18,999 4/68GB</p>
                 <p>৳20,999 6/128GB</p>
                 </div>
@@ -319,6 +324,9 @@ export default function MobileDetails() {
             </table>
         
         </div>
+       </>
+       : <h4>... Loading</h4>
+  }
 
     </div>
   )
