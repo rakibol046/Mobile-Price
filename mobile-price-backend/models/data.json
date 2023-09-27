@@ -1,0 +1,659 @@
+[
+     {
+    "categories" : "phone",
+    "deviceName": "Apple iPhone 14 Plus",
+    "price": "259000",
+    "images":["https://www.mobiledokan.com/wp-content/uploads/2023/09/Apple-iPhone-14-Plus-blue.webp","https://www.mobiledokan.com/wp-content/uploads/2022/09/Apple-iPhone-14-Plus.jpg.webp","https://www.mobiledokan.com/wp-content/uploads/2022/09/Apple-iPhone-14-Pro-Max.jpg.webp","https://www.mobiledokan.com/wp-content/uploads/2023/09/Apple-iPhone-14-Pro-Max-Gold.webp"],
+    "released": "Sep 12, 2012",
+    "colors": "Green, Red, Yellow",
+    "general":{
+        "deviceType": "smartphone",
+        "brand": "apple",
+        "model": "iphone14",
+        "status": "Available"
+    },
+    "connectivity":{
+        "network": "String",
+        "sim": "String",
+        "wlan": "String",
+        "usb": "String",
+        "radio": "String"
+    },
+    "body":{
+        "style": "String",
+        "material": "String",
+        "dimensions": "String",
+        "weight": "String"
+    },
+    "display":{
+        "size": "String",
+        "resolution": "String",
+        "technology": "String",
+        "protection": "String",
+        "features": "String"
+    },
+    "backCamera":{
+        "resolution": "String",
+        "features": "String",
+        "videoRecording": "String"   
+    },
+    "frontCamera":{
+        "resolution": "String",
+        "features": "String",
+        "videoRecording": "String"   
+    },
+    "performance":{
+        "operatingSystem":"Android 13 (ColorOS 13.1)",
+        "chipset": "MediaTek Helio G85 (12 nm)",
+        "ram": "3 GB",
+        "processor": "Octa core",
+        "gpu": "Mali G52 MC2"
+    },
+    "storage":{
+        "rom":"68 GB",
+        "microSDSlot": "Yes",
+        "technology": "String",
+        "protection": "String",
+        "features": "String"
+    },
+    "sound":{
+        "jack": "Yes",
+        "features": "Loudspeaker "
+    },
+    "security":{
+        "fingerprint": "Side-mounted",
+        "faceUnlock": "Yes",
+        "features": "String"
+    },
+    "others":{
+        "notificationLight": "Yes",
+        "sensors": "Yes",
+        "madeIn": "Japan"
+    }
+
+  },
+    {
+    "categories" : "phone",
+    "deviceName": "Xiaomi Redmi Note",
+    "price": "2100",
+    "images":["https://www.mobiledokan.com/wp-content/uploads/2023/09/Xiaomi-Redmi-Note-12-Pro-5G.jpg.webp", "https://www.mobiledokan.com/wp-content/uploads/2023/09/Oppo-A58-4G-black.webp"],
+    "released": "July 28, 2023",
+    "colors": "String",
+    "general":{
+        "deviceType": "smartphone",
+        "brand": "Xiaomi",
+        "model": "String",
+        "status": "String"
+    },
+    "connectivity":{
+        "network": "String",
+        "sim": "String",
+        "wlan": "String",
+        "usb": "String",
+        "radio": "String"
+    },
+    "body":{
+        "style": "String",
+        "material": "String",
+        "dimensions": "String",
+        "weight": "String"
+    },
+    "display":{
+        "size": "String",
+        "resolution": "String",
+        "technology": "String",
+        "protection": "String",
+        "features": "String"
+    },
+    "backCamera":{
+        "resolution": "String",
+        "features": "String",
+        "videoRecording": "String"   
+    },
+    "frontCamera":{
+        "resolution": "String",
+        "features": "String",
+        "videoRecording": "String"   
+    },
+    "performance":{
+        "operatingSystem":"Android 13 (ColorOS 13.1)",
+        "chipset": "MediaTek Helio G85 (12 nm)",
+        "ram": "1 GB",
+        "processor": "Octa core",
+        "gpu": "Mali G52 MC2"
+    },
+    "storage":{
+        "rom":"20 GB",
+        "microSDSlot": "Yes",
+        "technology": "String",
+        "protection": "String",
+        "features": "String"
+    },
+    "sound":{
+        "jack": "Yes",
+        "features": "Loudspeaker "
+    },
+    "security":{
+        "fingerprint": "Side-mounted",
+        "faceUnlock": "Yes",
+        "features": "String"
+    },
+    "others":{
+        "notificationLight": "Yes",
+        "sensors": "Yes",
+        "madeIn": "Japan"
+    }
+
+  },
+  {
+    "categories" : "phone",
+    "deviceName": "Xiaomi 12 Pro",
+    "price": "99999",
+    "images":["https://www.mobiledokan.com/wp-content/uploads/2022/04/Xiaomi-12-Pro.jpg.webp","https://www.mobiledokan.com/wp-content/uploads/2023/09/Xiaomi-Redmi-Note-12-Pro-5G.jpg.webp", "https://www.mobiledokan.com/wp-content/uploads/2023/09/Oppo-A58-4G-black.webp"],
+    "released": "July 28, 2022",
+    "colors": "Purple, Red",
+    "general":{
+        "deviceType": "smartphone",
+        "brand": "Xiaomi",
+        "model": "Xiaomi 12",
+        "status": "Available"
+    },
+    "connectivity":{
+        "network": "String",
+        "sim": "String",
+        "wlan": "String",
+        "usb": "String",
+        "radio": "String"
+    },
+    "body":{
+        "style": "String",
+        "material": "String",
+        "dimensions": "String",
+        "weight": "String"
+    },
+    "display":{
+        "size": "String",
+        "resolution": "String",
+        "technology": "String",
+        "protection": "String",
+        "features": "String"
+    },
+    "backCamera":{
+        "resolution": "String",
+        "features": "String",
+        "videoRecording": "String"   
+    },
+    "frontCamera":{
+        "resolution": "String",
+        "features": "String",
+        "videoRecording": "String"   
+    },
+    "performance":{
+        "operatingSystem":"Android 13 (ColorOS 13.1)",
+        "chipset": "MediaTek Helio G85 (12 nm)",
+        "ram": "8 GB",
+        "processor": "Octa core",
+        "gpu": "Mali G52 MC2"
+    },
+    "storage":{
+        "rom":"128 GB",
+        "microSDSlot": "Yes",
+        "technology": "String",
+        "protection": "String",
+        "features": "String"
+    },
+    "sound":{
+        "jack": "Yes",
+        "features": "Loudspeaker "
+    },
+    "security":{
+        "fingerprint": "Side-mounted",
+        "faceUnlock": "Yes",
+        "features": "String"
+    },
+    "others":{
+        "notificationLight": "Yes",
+        "sensors": "Yes",
+        "madeIn": "Japan"
+    }
+
+  },
+  {
+    "categories" : "phone",
+    "deviceName": "Xiaomi 11i Hypercharge",
+    "price": "42000",
+    "images":["https://www.mobiledokan.com/wp-content/uploads/2022/04/Xiaomi-11i-Hypercharge-5G.jpg.webp","https://www.mobiledokan.com/wp-content/uploads/2022/04/Xiaomi-12-Pro.jpg.webp","https://www.mobiledokan.com/wp-content/uploads/2023/09/Xiaomi-Redmi-Note-12-Pro-5G.jpg.webp", "https://www.mobiledokan.com/wp-content/uploads/2023/09/Oppo-A58-4G-black.webp"],
+    "released": "Sep 12, 2012",
+    "colors": "Green, Red, Yellow",
+    "general":{
+        "deviceType": "smartphone",
+        "brand": "Xiaomi",
+        "model": "Xiaomi 12",
+        "status": "Available"
+    },
+    "connectivity":{
+        "network": "String",
+        "sim": "String",
+        "wlan": "String",
+        "usb": "String",
+        "radio": "String"
+    },
+    "body":{
+        "style": "String",
+        "material": "String",
+        "dimensions": "String",
+        "weight": "String"
+    },
+    "display":{
+        "size": "String",
+        "resolution": "String",
+        "technology": "String",
+        "protection": "String",
+        "features": "String"
+    },
+    "backCamera":{
+        "resolution": "String",
+        "features": "String",
+        "videoRecording": "String"   
+    },
+    "frontCamera":{
+        "resolution": "String",
+        "features": "String",
+        "videoRecording": "String"   
+    },
+    "performance":{
+        "operatingSystem":"Android 13 (ColorOS 13.1)",
+        "chipset": "MediaTek Helio G85 (12 nm)",
+        "ram": "4 GB",
+        "processor": "Octa core",
+        "gpu": "Hellio G52 MC2"
+    },
+    "storage":{
+        "rom":"256 GB",
+        "microSDSlot": "Yes",
+        "technology": "String",
+        "protection": "String",
+        "features": "String"
+    },
+    "sound":{
+        "jack": "Yes",
+        "features": "Loudspeaker "
+    },
+    "security":{
+        "fingerprint": "Side-mounted",
+        "faceUnlock": "Yes",
+        "features": "String"
+    },
+    "others":{
+        "notificationLight": "Yes",
+        "sensors": "Yes",
+        "madeIn": "Japan"
+    }
+
+  },
+   {
+    "categories" : "phone",
+    "deviceName": "Apple iPhone 14 Pro",
+    "price": "159000",
+    "images":["https://www.mobiledokan.com/wp-content/uploads/2022/09/Apple-iPhone-14-Pro-Max.jpg.webp","https://www.mobiledokan.com/wp-content/uploads/2023/09/Apple-iPhone-14-Pro-Max-Gold.webp"],
+    "released": "Sep 12, 2012",
+    "colors": "Green, Red, Yellow",
+    "general":{
+        "deviceType": "smartphone",
+        "brand": "apple",
+        "model": "apple 12",
+        "status": "Available"
+    },
+    "connectivity":{
+        "network": "String",
+        "sim": "String",
+        "wlan": "String",
+        "usb": "String",
+        "radio": "String"
+    },
+    "body":{
+        "style": "String",
+        "material": "String",
+        "dimensions": "String",
+        "weight": "String"
+    },
+    "display":{
+        "size": "String",
+        "resolution": "String",
+        "technology": "String",
+        "protection": "String",
+        "features": "String"
+    },
+    "backCamera":{
+        "resolution": "String",
+        "features": "String",
+        "videoRecording": "String"   
+    },
+    "frontCamera":{
+        "resolution": "String",
+        "features": "String",
+        "videoRecording": "String"   
+    },
+    "performance":{
+        "operatingSystem":"Android 13 (ColorOS 13.1)",
+        "chipset": "MediaTek Helio G85 (12 nm)",
+        "ram": "6 GB",
+        "processor": "Octa core",
+        "gpu": "Mali G52 MC2"
+    },
+    "storage":{
+        "rom":"1800 GB",
+        "microSDSlot": "Yes",
+        "technology": "String",
+        "protection": "String",
+        "features": "String"
+    },
+    "sound":{
+        "jack": "Yes",
+        "features": "Loudspeaker "
+    },
+    "security":{
+        "fingerprint": "Side-mounted",
+        "faceUnlock": "Yes",
+        "features": "String"
+    },
+    "others":{
+        "notificationLight": "Yes",
+        "sensors": "Yes",
+        "madeIn": "Japan"
+    }
+
+  },
+    {
+    "categories" : "phone",
+    "deviceName": "Apple iPhone 11",
+    "price": "159000",
+    "images":["https://www.mobiledokan.com/wp-content/uploads/2019/09/Apple-iPhone-11.jpg.webp","https://www.mobiledokan.com/wp-content/uploads/2023/09/Apple-iPhone-11-white.webp"],
+    "released": "Sep 12, 2012",
+    "colors": "Green, Red, Yellow",
+    "general":{
+        "deviceType": "smartphone",
+        "brand": "iPhone",
+        "model": "iphone14",
+        "status": "Available"
+    },
+    "connectivity":{
+        "network": "String",
+        "sim": "String",
+        "wlan": "String",
+        "usb": "String",
+        "radio": "String"
+    },
+    "body":{
+        "style": "String",
+        "material": "String",
+        "dimensions": "String",
+        "weight": "String"
+    },
+    "display":{
+        "size": "String",
+        "resolution": "String",
+        "technology": "String",
+        "protection": "String",
+        "features": "String"
+    },
+    "backCamera":{
+        "resolution": "String",
+        "features": "String",
+        "videoRecording": "String"   
+    },
+    "frontCamera":{
+        "resolution": "String",
+        "features": "String",
+        "videoRecording": "String"   
+    },
+    "performance":{
+        "operatingSystem":"Android 13 (ColorOS 13.1)",
+        "chipset": "MediaTek Helio G85 (12 nm)",
+        "ram": "8 GB",
+        "processor": "Octa core",
+        "gpu": "Mali G52 MC2"
+    },
+    "storage":{
+        "rom":"128 GB",
+        "microSDSlot": "Yes",
+        "technology": "String",
+        "protection": "String",
+        "features": "String"
+    },
+    "sound":{
+        "jack": "Yes",
+        "features": "Loudspeaker "
+    },
+    "security":{
+        "fingerprint": "Side-mounted",
+        "faceUnlock": "Yes",
+        "features": "String"
+    },
+    "others":{
+        "notificationLight": "Yes",
+        "sensors": "Yes",
+        "madeIn": "Japan"
+    }
+
+  },
+   {
+    "categories" : "phone",
+    "deviceName": "Samsung Galaxy A24",
+    "price": "37000",
+    "images":["https://www.mobiledokan.com/wp-content/uploads/2023/08/Samsung-Galaxy-A24.jpg.webp"],
+    "released": "May 5, 2023",
+    "colors": "Black, Lime Green, Blue Gradient, Dark red",
+    "general":{
+        "deviceType": "smartphone",
+        "brand": "samsung",
+        "model": "SamsungA",
+        "status": "Upcomming"
+    },
+    "connectivity":{
+        "network": "String",
+        "sim": "String",
+        "wlan": "String",
+        "usb": "String",
+        "radio": "String"
+    },
+    "body":{
+        "style": "String",
+        "material": "String",
+        "dimensions": "String",
+        "weight": "String"
+    },
+    "display":{
+        "size": "String",
+        "resolution": "String",
+        "technology": "String",
+        "protection": "String",
+        "features": "String"
+    },
+    "backCamera":{
+        "resolution": "String",
+        "features": "String",
+        "videoRecording": "String"   
+    },
+    "frontCamera":{
+        "resolution": "String",
+        "features": "String",
+        "videoRecording": "String"   
+    },
+    "performance":{
+        "operatingSystem":"Android 13 (ColorOS 13.1)",
+        "chipset": "MediaTek Helio G85 (12 nm)",
+        "ram": "8 GB",
+        "processor": "Octa core",
+        "gpu": "Mali G52 MC2"
+    },
+    "storage":{
+        "rom":"128 GB",
+        "microSDSlot": "Yes",
+        "technology": "String",
+        "protection": "String",
+        "features": "String"
+    },
+    "sound":{
+        "jack": "Yes",
+        "features": "Loudspeaker "
+    },
+    "security":{
+        "fingerprint": "Side-mounted",
+        "faceUnlock": "Yes",
+        "features": "String"
+    },
+    "others":{
+        "notificationLight": "Yes",
+        "sensors": "Yes",
+        "madeIn": "Japan"
+    }
+
+  },
+   {
+    "categories" : "phone",
+    "deviceName": "Samsung Galaxy A33 5G",
+    "price": "44999",
+    "images":["https://www.mobiledokan.com/wp-content/uploads/2022/03/Samsung-Galaxy-A33-5G.jpg.webp","https://www.mobiledokan.com/wp-content/uploads/2023/08/Samsung-Galaxy-A24.jpg.webp"],
+    "released": "April 2022",
+    "colors": "Black, Lime Green, Blue Gradient, Dark red",
+    "general":{
+        "deviceType": "smartphone",
+        "brand": "samsung",
+        "model": "SamsungA",
+        "status": "Upcomming"
+    },
+    "connectivity":{
+        "network": "String",
+        "sim": "String",
+        "wlan": "String",
+        "usb": "String",
+        "radio": "String"
+    },
+    "body":{
+        "style": "String",
+        "material": "String",
+        "dimensions": "String",
+        "weight": "String"
+    },
+    "display":{
+        "size": "String",
+        "resolution": "String",
+        "technology": "String",
+        "protection": "String",
+        "features": "String"
+    },
+    "backCamera":{
+        "resolution": "String",
+        "features": "String",
+        "videoRecording": "String"   
+    },
+    "frontCamera":{
+        "resolution": "String",
+        "features": "String",
+        "videoRecording": "String"   
+    },
+    "performance":{
+        "operatingSystem":"Android 13 (ColorOS 13.1)",
+        "chipset": "MediaTek Helio G85 (12 nm)",
+        "ram": "8 GB",
+        "processor": "Octa core",
+        "gpu": "Mali G52 MC2"
+    },
+    "storage":{
+        "rom":"128 GB",
+        "microSDSlot": "Yes",
+        "technology": "String",
+        "protection": "String",
+        "features": "String"
+    },
+    "sound":{
+        "jack": "Yes",
+        "features": "Loudspeaker "
+    },
+    "security":{
+        "fingerprint": "Side-mounted",
+        "faceUnlock": "Yes",
+        "features": "String"
+    },
+    "others":{
+        "notificationLight": "Yes",
+        "sensors": "Yes",
+        "madeIn": "Japan"
+    }
+
+  },
+   {
+    "categories" : "watch",
+    "deviceName": "Samsung Men Watch",
+    "price": "2300",
+    "images":["https://www.shopz.com.bd/wp-content/uploads/2019/09/SKMEI-Top-Brand-Quartz-Watch-Fashion-Casual-Wrist-Watch-Quartz-Watches-Men-Stainless-Steel-Waterproof-relogio.jpg_640x640.jpg"],
+    "released": "April 2022",
+    "colors": "Black, Lime Green, Blue Gradient, Dark red",
+    "general":{
+        "deviceType": "smartphone",
+        "brand": "samsung",
+        "model": "SamsungA",
+        "status": "Upcomming"
+    },
+    "connectivity":{
+        "network": "String",
+        "sim": "String",
+        "wlan": "String",
+        "usb": "String",
+        "radio": "String"
+    },
+    "body":{
+        "style": "String",
+        "material": "String",
+        "dimensions": "String",
+        "weight": "String"
+    },
+    "display":{
+        "size": "String",
+        "resolution": "String",
+        "technology": "String",
+        "protection": "String",
+        "features": "String"
+    },
+    "backCamera":{
+        "resolution": "String",
+        "features": "String",
+        "videoRecording": "String"   
+    },
+    "frontCamera":{
+        "resolution": "String",
+        "features": "String",
+        "videoRecording": "String"   
+    },
+    "performance":{
+        "operatingSystem":"Android 13 (ColorOS 13.1)",
+        "chipset": "MediaTek Helio G85 (12 nm)",
+        "ram": "1 GB",
+        "processor": "Octa core",
+        "gpu": "Mali G52 MC2"
+    },
+    "storage":{
+        "rom":"12 MB",
+        "microSDSlot": "Yes",
+        "technology": "String",
+        "protection": "String",
+        "features": "String"
+    },
+    "sound":{
+        "jack": "Yes",
+        "features": "Loudspeaker "
+    },
+    "security":{
+        "fingerprint": "Side-mounted",
+        "faceUnlock": "Yes",
+        "features": "String"
+    },
+    "others":{
+        "notificationLight": "Yes",
+        "sensors": "Yes",
+        "madeIn": "Japan"
+    }
+
+  }
+]

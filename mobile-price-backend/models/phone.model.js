@@ -12,7 +12,7 @@ var PhoneSchema = new mongoose.Schema({
     },
     images:{
        type:[String],
-       required: true
+       required: false
     },
     released: String,
     colors: String,
@@ -57,7 +57,7 @@ var PhoneSchema = new mongoose.Schema({
         chipset: String,
         ram: {
             type: [String],
-            required: true
+            required: false
             
         },
         processor: String,
@@ -66,7 +66,7 @@ var PhoneSchema = new mongoose.Schema({
     storage:{
         rom: {
             type: [String],
-            required: true
+            required: false
         },
         microSDSlot: String,
         technology: String,

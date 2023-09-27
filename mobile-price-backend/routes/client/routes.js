@@ -1,9 +1,9 @@
 const express =  require('express');
 const Route = express.Router();
 
-const {allPhonesCotroller, phoneController} = require("../../controller/phone.controller")
-const {allTabletsCotroller, tabletController} = require("../../controller/tablet.controller")
-const {allWatchsCotroller, watchController} = require("../../controller/watch.controller")
+const {allPhonesCotroller, phoneController} = require("../../controller/client/phone.controller")
+const {allTabletsCotroller, tabletController} = require("../../controller/client/tablet.controller")
+const {allWatchsCotroller, watchController} = require("../../controller/client/watch.controller")
 
 
 Route.get("/phones", allPhonesCotroller);

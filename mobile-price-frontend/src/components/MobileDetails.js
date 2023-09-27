@@ -41,13 +41,13 @@ export default function MobileDetails() {
         </div>
         <div className="mobile-details">
             <h1>{mobile.deviceName}</h1>
-            <p className='brand-and-status'><strong>Brand:</strong> Xiaomi   
-            <strong> Status: </strong> Available</p>
+            <p className='brand-and-status'><strong>Brand:</strong> {mobile.general.brand}  
+            <strong> Status: </strong> {mobile.general.status}  </p>
 
             <div className="official-price">
                 <h3>Official Price</h3>
                 <div className="variant">
-                <p>৳{mobile.price[0]} 3/32GB</p>
+                              <p>৳{mobile.price[0]} {mobile?.performance?.ram }/{mobile?.storage?.rom }</p>
                 <p>৳18,999 4/68GB</p>
                 <p>৳20,999 6/128GB</p>
                 </div>
@@ -63,19 +63,19 @@ export default function MobileDetails() {
             <table>
                <tr>
                    <td>Device Type</td>
-                   <td>Smartphone</td>
+                   <td>{mobile.general.deviceType} </td>
                </tr>
                <tr>
                     <td>Brand</td>
-                   <td>Xiaomi</td>
+                   <td>{mobile.general.brand} </td>
                </tr>
                <tr>
                     <td>Model</td>
-                   <td>Redmi Note 8</td>
+                   <td>{mobile.general.model}</td>
                </tr>
                <tr>
                     <td>Status</td>
-                   <td>Available</td>
+                   <td>{mobile.general.status}</td>
                </tr>
             </table>
 
@@ -88,7 +88,7 @@ export default function MobileDetails() {
                </tr>
                <tr>
                     <td>Released</td>
-                   <td>Available. September 2019</td>
+                   <td>{mobile.released}</td>
                </tr>
             
             </table>

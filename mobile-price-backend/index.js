@@ -6,10 +6,10 @@ const path = require("path");
 
 //internal import
 const {notFoundHandler, errorHandler} = require("./middlewares/common/errorHandlers")
-const getAllData = require("./controller/home.controller")
-const getLaptop = require("./controller/laptop.controller")
-const {allPhones, phone} = require("./controller/phone.controller")
-const getWatch = require("./controller/watch.controller");
+const getAllData = require("./controller/client/home.controller")
+// const getLaptop = require("./controller/laptop.controller")
+// const {allPhones, phone} = require("./controller/phone.controller")
+// const getWatch = require("./controller/watch.controller");
 
 const clientRoutes =  require('./routes/client/routes')
 const adminRoutes =  require('./routes/admin/routes')
@@ -25,10 +25,17 @@ dotenv.config();
 app.set("view engine", "ejs");
 
 //Database connection (mongodb => mongoose)
-mongoose.connect(process.env.DATABASE_STRING)
+mongoose.connect(process.env.DATABASE_STRING, {
+            // useNewUrlParser: true,
+            // useUnifiedTopology: true,
+            // useCreateIndex: true,
+            // useFindAndModify: false
+        })
     .then(() => {console.log("Database connection successful")})
     .catch(err => {
+        console.log("failed to connect database")
         console.log(err)
+        
     });
 
 //Request parsers 
@@ -43,7 +50,7 @@ app.use(express.static(path.join(__dirname, "public")))
 app.get("/", getAllData);
 
 app.use("/client",clientRoutes);
-// app.use(adminRoutes);
+app.use("/admin", adminRoutes);
 
 //404 not found handler
 app.use(notFoundHandler);

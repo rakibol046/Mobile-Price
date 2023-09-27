@@ -1,4 +1,4 @@
-const Phone = require("../models/phone.model");
+const Phone = require("../../models/phone.model");
 const allWatchsCotroller = (req, res) => {
     Phone.find({categories : "watch"}, (err, data)=>{
         res.json(data)
